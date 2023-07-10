@@ -10,6 +10,29 @@ nisl_cc_library(
     "nisl_compile_lib.cc"
   DEPS
     LLVMSupport
+    LLVMTargetParser
+    MLIRBuiltinToLLVMIRTranslation
+    MLIRIR
+    MLIRParser
+    MLIRPass
+    MLIROptLib
+    MLIRLspServerLib
+    MLIRSupport
+    MLIRTransformUtils
+    MLIRTransforms
+    MLIRAffineUtils
+    MLIRFuncDialect
+    MLIRShapeDialect
+    MLIRShapeOpsTransforms
+    MLIRTensorDialect
+    MLIRControlFlowDialect
+
+    init_passes_and_dialects
+    init_llvmir_translations
+
+  INCLUDES
+    "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/.>"
+    "$<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}/.>"
   PUBLIC
 )
 
@@ -23,23 +46,10 @@ nisl_cc_library(
     "nisl_opt_lib.cc"
   DEPS
     LLVMSupport
+    
   PUBLIC
 )
 
-# nisl_cc_library(
-#   NAME
-#     init_input_passes_and_dialects
-#   HDRS
-#     "init_input_dialects.h"
-#     "init_input_passes.h"
-#   SRCS
-#     "init_input_dialects.cc"
-#     "init_input_passes.cc"
-#   DEPS
-#     ${IREE_INPUT_DEPS}
-#     CommonInputConversion
-#   PUBLIC
-# )
 
 
 nisl_cc_library(
@@ -49,6 +59,15 @@ nisl_cc_library(
     "init_mlir_dialects.h"
     "init_mlir_passes.h"
   DEPS
+    MLIRDialect
+    MLIRPass
+    MLIRIR
+    MLIRControlFlowToSPIRV
+    MLIRReconcileUnrealizedCasts
+    MLIRTransformDialect
+
+
+
     MLIRAffineDialect
     MLIRAffineTransforms
     MLIRArmNeonDialect
@@ -58,25 +77,47 @@ nisl_cc_library(
     MLIRControlFlowDialect
     MLIRGPUOps
     MLIRGPUToSPIRV
-    MLIRIR
+
     MLIRLLVMDialect
     MLIRLinalgDialect
     MLIRLinalgToLLVM
     MLIRLinalgTransforms
     MLIRMLProgramDialect
+    MLIRMemRefDialect
     MLIRQuantDialect
     MLIRSCFDialect
     MLIRSCFToGPU
     MLIRSCFTransforms
     MLIRSPIRVDialect
     MLIRSPIRVTransforms
-    MLIRShapeDialect  
-    MLIRShapeOpsTransforms # Shape Dialect transforms
+    MLIRShapeOpsTransforms
+    MLIRShapeDialect
     MLIRFuncDialect
     MLIRFuncToSPIRV
     MLIRTensorInferTypeOpInterfaceImpl
     MLIRTransforms
-    MLIRVectorDialect
+    MLIRVectorDialect 
+    MLIRShapeOpsTransforms # Shape Dialect transforms
+
+    # TOSA
+    MLIRArithDialect
+    MLIRFuncDialect
+    MLIRIR
+    MLIRLinalgDialect
+    MLIRPass
+    MLIRSCFToControlFlow
+    MLIRTensorDialect
+    MLIRTosaDialect
+    MLIRTosaToArith
+    MLIRTosaToLinalg
+    MLIRTosaToSCF
+    MLIRTosaToTensor
+    
+
+    
+    MLIRAsyncDialect
+    MLIRAsyncTransforms
+
   PUBLIC
 )
 
@@ -88,9 +129,7 @@ nisl_cc_library(
     "init_dialects.h"
     "init_passes.h"
   DEPS
-    # ::init_compiler_modules
-    # init_input_passes_and_dialects
-    # ::init_iree_passes_and_dialects
+
     init_mlir_passes_and_dialects
     # iree::compiler::Codegen::Codegen
     # iree::compiler::Dialect::HAL::Conversion::Passes

@@ -11,6 +11,7 @@
 
 
 #include "init_mlir_passes.h"
+// #include "mlir/InitAllPasses.h"
 
 
 
@@ -20,6 +21,7 @@ namespace compiler {
 // Registers core passes and other important passes to the global registry.
 inline void registerAllPasses() {
     registerMlirPasses();
+    // mlir::registerAllPasses();
 }
 
 }  // namespace compiler

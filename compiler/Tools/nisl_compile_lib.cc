@@ -33,6 +33,10 @@
 #include "llvm/Support/ToolOutputFile.h"
 
 
+#include "mlir/Conversion/TosaToArith/TosaToArith.h"
+#include "mlir/Dialect/Func/IR/FuncOps.h"
+#include "mlir/Dialect/Shape/Transforms/Passes.h"
+#include "mlir/Dialect/Tosa/Transforms/Passes.h"
 #include "mlir/IR/BuiltinAttributes.h"
 #include "mlir/IR/BuiltinOps.h"
 #include "mlir/IR/PatternMatch.h"
@@ -88,7 +92,15 @@ GlobalInit::GlobalInit() {
 }
 
 void GlobalInit::registerCommandLineOptions(){
+  // Register MLIRContext command-line options like
+  // -mlir-print-op-on-diagnostic.
   mlir::registerMLIRContextCLOptions();
+  // Register assembly printer command-line options like
+  // -mlir-print-op-generic.
+  mlir::registerAsmPrinterCLOptions();
+  // Register pass manager command-line options like -mlir-print-ir-*.
+  mlir::registerPassManagerCLOptions();
+  mlir::registerDefaultTimingManagerCLOptions();
 }
 
 
@@ -329,7 +341,7 @@ Error *Output::openFD(int fd) {
 
 Error *Output::openMembuffer() {
 #if IREE_COMPILER_USE_MEMFD_CREATE
-  int fd = memfd_create("iree_output.bin", 0);
+  int fd = memfd_create("nisl_output.bin", 0);
   if (fd == -1) {
     return new Error("Error creating membuffer output via memfd_create");
   }
@@ -393,10 +405,16 @@ bool Invocation::parseSource(Source &source){
 
 
 bool Invocation::runPipeline(enum compilerPipeline pipeline){
+std::cout<<"nisl-compile-runMain-runPipepline!"<<std::endl;
+      session.context.allowsUnregisteredDialects();
+
+      passManager.addPass(tosa::createTosaToArith());
+
   switch (pipeline) {
     case NISL_COMPILER_PIPELINE_STD:{
       /*  nisl-compile Pipeline  */
-      buildNISLTransformePassPipeline(passManager);
+      // buildTOSATransformePassPipeline(passManager);
+
       break;
     }
     case NISL_COMPILER_PIPELINE_HAL_EXECUTABLE: {
@@ -411,6 +429,7 @@ bool Invocation::runPipeline(enum compilerPipeline pipeline){
   if (failed(passManager.run(parsedModule.get()))) {
     return false;
   }
+  passManager.dump();
   parsedModule.get()->dump();
   return true;
 }
@@ -448,7 +467,7 @@ int mlir::compiler::nislRunMain(int argc, char **argv) {
 
   GlobalInit *globalInit = new GlobalInit();
   if (globalInit->usesCommandLine) {
-      fprintf(stderr, "FATAL ERROR: ireeCompileParseCL called multiple times\n");
+      fprintf(stderr, "FATAL ERROR: nislCompileParseCL called multiple times\n");
       abort();
   }
 

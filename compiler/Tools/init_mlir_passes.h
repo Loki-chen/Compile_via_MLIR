@@ -14,16 +14,18 @@
 
 #include <cstdlib>
 
-// #include "mlir/Conversion/Passes.h"
-// #include "mlir/Dialect/Affine/Passes.h"
-// #include "mlir/Dialect/GPU/Transforms/Passes.h"
-// #include "mlir/Dialect/Linalg/Passes.h"
-// #include "mlir/Dialect/MemRef/Transforms/Passes.h"
-// #include "mlir/Dialect/SCF/Transforms/Passes.h"
-// #include "mlir/Dialect/SPIRV/Transforms/Passes.h"
-// #include "mlir/Dialect/Shape/Transforms/Passes.h"   // inc.d
-// #include "mlir/Transforms/Passes.h"
+#include "mlir/Conversion/Passes.h"
+#include "mlir/Dialect/Affine/Passes.h"
+#include "mlir/Dialect/GPU/Transforms/Passes.h"
+#include "mlir/Dialect/Linalg/Passes.h"
+#include "mlir/Dialect/MemRef/Transforms/Passes.h"
+#include "mlir/Dialect/SCF/Transforms/Passes.h"
+#include "mlir/Dialect/SPIRV/Transforms/Passes.h"
+#include "mlir/Dialect/Shape/Transforms/Passes.h"   // inc.d
+#include "mlir/Transforms/Passes.h"
 
+
+#include "mlir/Dialect/Tosa/Transforms/Passes.h"
 
 
 namespace mlir {
@@ -36,50 +38,56 @@ namespace mlir {
 // individual passes.
 // The global registry is interesting to interact with the command-line tools.
 inline void registerMlirPasses() {
-//   // Core Transforms
-//   registerCanonicalizerPass();
-//   registerCSEPass();
-//   registerInlinerPass();
-//   registerLocationSnapshotPass();
-//   registerLoopCoalescingPass();
-//   registerLoopInvariantCodeMotionPass();
-//   registerAffineScalarReplacementPass();
-//   registerPrintOpStatsPass();
-//   registerViewOpGraphPass();
-//   registerStripDebugInfoPass();
-//   registerSymbolDCEPass();
+  // Core Transforms
+  registerCanonicalizerPass();
+  registerCSEPass();
+  registerInlinerPass();
+  registerLocationSnapshotPass();
+  registerLoopCoalescingPass();
+  registerLoopInvariantCodeMotionPass();
+  registerAffineScalarReplacementPass();
+  registerPrintOpStatsPass();
+  registerViewOpGraphPass();
+  registerStripDebugInfoPass();
+  registerSymbolDCEPass();
 
-//   // Generic conversions
-//   registerReconcileUnrealizedCastsPass();
+  // Generic conversions
+  registerReconcileUnrealizedCastsPass();
 
-//   // Affine
-//   registerAffinePasses();
-//   registerAffineLoopFusionPass();
-//   registerAffinePipelineDataTransferPass();
-//   registerConvertAffineToStandardPass();
+  // Affine
+  registerAffinePasses();
+  registerAffineLoopFusionPass();
+  registerAffinePipelineDataTransferPass();
+  registerConvertAffineToStandardPass();
 
-//   // Linalg
-//   registerLinalgPasses();
+  // Linalg
+  registerLinalgPasses();
 
-//   // LLVM
-//   registerConvertArmNeon2dToIntrPass();
+  // LLVM
+  registerConvertArmNeon2dToIntrPass();
 
-//   // MemRef
-//   memref::registerMemRefPasses();
+  // MemRef
+  memref::registerMemRefPasses();
 
-//   // SCF
-//   registerSCFParallelLoopFusionPass();
-//   registerSCFParallelLoopTilingPass();
-//   registerSCFToControlFlowPass();
+  // SCF
+  registerSCFParallelLoopFusionPass();
+  registerSCFParallelLoopTilingPass();
+  registerSCFToControlFlowPass();
 
-//   // Shape
-//   registerShapePasses();
+  // Shape
+  registerShapePasses();
 
-//   // SPIR-V
-//   spirv::registerSPIRVLowerABIAttributesPass();
-//   registerConvertGPUToSPIRVPass();
-//   registerConvertControlFlowToSPIRVPass();
-//   registerConvertFuncToSPIRVPass();
+  // SPIR-V
+  spirv::registerSPIRVLowerABIAttributesPass();
+  registerConvertGPUToSPIRVPass();
+  registerConvertControlFlowToSPIRVPass();   //  error  undefined reference to
+  registerConvertFuncToSPIRVPass();
+
+  //TOSA
+
+  registerTosaToArithPass();
+  registerTosaToLinalgPass();
+  registerTosaToTensorPass();
 }
 
 }  // namespace mlir

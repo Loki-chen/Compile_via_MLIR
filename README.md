@@ -14,5 +14,7 @@
           -B/build                     #bninary file path
           -G Ninja
 
-
+      
+          echo :
+          cmake --build /home/MLIR-Compiler/build --config Debug --target all -j 40 --
 

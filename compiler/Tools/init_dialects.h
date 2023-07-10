@@ -14,14 +14,19 @@
 
 #include "mlir/IR/Dialect.h"
 #include "init_mlir_dialects.h"
+#include "mlir/Dialect/Tosa/IR/TosaOps.h"
 
 
 
+// #include "mlir/InitAllDialects.h"
 namespace mlir {
 namespace compiler {
 
 inline void registerAllDialects(DialectRegistry &registry) {
     registerMlirDialects(registry);
+
+    // registry.insert<tosa::TosaDialect>();
+    // mlir::registerAllDialects(registry);
 }
 
 }  // namespace compiler
