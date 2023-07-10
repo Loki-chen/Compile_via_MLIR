@@ -1,0 +1,19 @@
+static_library("FlowSensitive") {
+  output_name = "clangAnalysisFlowSensitive"
+  configs += [ "//llvm/utils/gn/build:clang_code" ]
+  deps = [
+    "//clang/lib/AST",
+    "//clang/lib/Analysis",
+  ]
+  sources = [
+    "ControlFlowContext.cpp",
+    "DataflowAnalysisContext.cpp",
+    "DataflowEnvironment.cpp",
+    "DebugSupport.cpp",
+    "Logger.cpp",
+    "Transfer.cpp",
+    "TypeErasedDataflowAnalysis.cpp",
+    "Value.cpp",
+    "WatchedLiteralsSolver.cpp",
+  ]
+}
