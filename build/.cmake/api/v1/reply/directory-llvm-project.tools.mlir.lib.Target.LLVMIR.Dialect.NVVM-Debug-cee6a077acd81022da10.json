@@ -1,0 +1,67 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_mlir_library_install",
+			"add_mlir_library",
+			"add_mlir_translation_library"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/Target/LLVMIR/Dialect/NVVM/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 594,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 535,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "MLIRNVVMToLLVMIRTranslation",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"llvm-project/lib/libMLIRNVVMToLLVMIRTranslation.a"
+			],
+			"targetId" : "MLIRNVVMToLLVMIRTranslation::@fe914d5dfbf5c4c23814",
+			"targetIndex" : 373,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Target/LLVMIR/Dialect/NVVM",
+		"source" : "third_party/llvm-project/mlir/lib/Target/LLVMIR/Dialect/NVVM"
+	}
+}

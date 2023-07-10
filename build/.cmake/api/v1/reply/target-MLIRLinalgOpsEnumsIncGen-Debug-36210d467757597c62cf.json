@@ -1,0 +1,144 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_public_tablegen_target",
+			"add_custom_command",
+			"tablegen",
+			"mlir_tablegen",
+			"add_linalg_ods_yaml_gen"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/TableGen.cmake",
+			"third_party/llvm-project/mlir/include/mlir/Dialect/Linalg/IR/CMakeLists.txt",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 6
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "mlir-tblgen::@f00ed296c5f5525f4dbe"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "mlir-linalg-ods-yaml-gen::@cdda57ec8cb1acdbbaba"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tablegenning"
+	},
+	"id" : "MLIRLinalgOpsEnumsIncGen::@e187e6f256837653a457",
+	"name" : "MLIRLinalgOpsEnumsIncGen",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/include/mlir/Dialect/Linalg/IR",
+		"source" : "third_party/llvm-project/mlir/include/mlir/Dialect/Linalg/IR"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				4
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/Linalg/IR/CMakeFiles/MLIRLinalgOpsEnumsIncGen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/Linalg/IR/CMakeFiles/MLIRLinalgOpsEnumsIncGen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/Linalg/IR/LinalgOpsEnums.cpp.inc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/Linalg/IR/LinalgOpsEnums.h.inc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"path" : "third_party/llvm-project/mlir/include/mlir/Dialect/Linalg/IR/LinalgNamedStructuredOps.yaml",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "UTILITY"
+}

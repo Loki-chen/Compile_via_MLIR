@@ -1,0 +1,510 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "llvm-project/tools/mlir/lib/CAPI/Dialect/CMakeFiles/obj.MLIRCAPISCF.dir/./SCF.cpp.o"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_mlir_library",
+			"add_mlir_public_c_api_library",
+			"add_mlir_upstream_c_api_library",
+			"install",
+			"add_mlir_library_install",
+			"add_dependencies",
+			"set_property",
+			"llvm_update_compile_flags",
+			"target_compile_definitions",
+			"add_definitions",
+			"add_compile_definitions",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/CAPI/CMakeLists.txt",
+			"third_party/llvm-project/mlir/lib/CAPI/Dialect/CMakeLists.txt",
+			"third_party/llvm-project/mlir/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/HandleLLVMOptions.cmake",
+			"third_party/llvm-project/llvm/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/config-ix.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 72,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 559,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 519,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 349,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 535,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 538,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 522,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 11
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 573,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 113,
+				"parent" : 14
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 122,
+				"parent" : 14
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 13,
+				"file" : 6,
+				"line" : 896,
+				"parent" : 17
+			},
+			{
+				"file" : 5,
+				"parent" : 18
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 64,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 85,
+				"parent" : 19
+			},
+			{
+				"command" : 13,
+				"file" : 6,
+				"line" : 861,
+				"parent" : 17
+			},
+			{
+				"file" : 7,
+				"parent" : 22
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 338,
+				"parent" : 23
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 87,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 980,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 981,
+				"parent" : 19
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 982,
+				"parent" : 19
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 14,
+				"file" : 8,
+				"line" : 130,
+				"parent" : 29
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 1118,
+				"parent" : 17
+			},
+			{
+				"command" : 14,
+				"file" : 4,
+				"line" : 164,
+				"parent" : 14
+			},
+			{
+				"command" : 14,
+				"file" : 4,
+				"line" : 165,
+				"parent" : 14
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 534,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fno-rtti -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -w -fdiagnostics-color -g -fvisibility=hidden"
+				},
+				{
+					"fragment" : " -fno-exceptions -funwind-tables -fno-rtti"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 12,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "MLIR_CAPI_BUILDING_LIBRARY=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "MLIR_CUDA_CONVERSIONS_ENABLED=0"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "MLIR_ROCM_CONVERSIONS_ENABLED=0"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_LIBCPP_ENABLE_ASSERTIONS"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/mlir/lib/CAPI/Dialect"
+				},
+				{
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/mlir/lib/CAPI/Dialect"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/home/MLIR-Compiler/compiler"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/llvm/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/mlir/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/mlir/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/lld/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/lld/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "mlir-generic-headers::@86090154e9d834972c07"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "MLIRSCFDialect::@058ee5b2e43a554a0639"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "MLIRCAPIIR::@ce425c65793baf93ebc1"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Object Libraries"
+	},
+	"id" : "obj.MLIRCAPISCF::@df314a9d9d2d12df85a0",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "obj.MLIRCAPISCF",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/CAPI/Dialect",
+		"source" : "third_party/llvm-project/mlir/lib/CAPI/Dialect"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/mlir/lib/CAPI/Dialect/SCF.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/AffineExpr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/AffineMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/BuiltinAttributes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/BuiltinTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Conversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Debug.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Diagnostics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/ExecutionEngine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/IR.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/IntegerSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Interfaces.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/RegisterEverything.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Support.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Transforms.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

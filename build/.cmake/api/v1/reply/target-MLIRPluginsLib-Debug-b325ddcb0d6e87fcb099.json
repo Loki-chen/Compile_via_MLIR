@@ -1,0 +1,316 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "llvm-project/lib/libMLIRPluginsLib.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_mlir_library",
+			"install",
+			"add_mlir_library_install",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"add_compile_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/Tools/Plugins/CMakeLists.txt",
+			"third_party/llvm-project/mlir/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/HandleLLVMOptions.cmake",
+			"third_party/llvm-project/llvm/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/config-ix.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 590,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 308,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 535,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 714,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 721,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 113,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 122,
+				"parent" : 8
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 896,
+				"parent" : 11
+			},
+			{
+				"file" : 4,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 85,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 861,
+				"parent" : 11
+			},
+			{
+				"file" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 338,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 87,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 980,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 981,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 982,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 130,
+				"parent" : 23
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 1118,
+				"parent" : 11
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 164,
+				"parent" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 165,
+				"parent" : 8
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "LLVMDemangle::@9c83ca6f214fa90cef03"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "LLVMSupport::@09adc78fa9c468d8ed8e"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "mlir-generic-headers::@86090154e9d834972c07"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRAnalysis::@16dd6b73e5c3a1a9d919"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRPresburger::@dead03bb086aa5064571"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRIR::@71c528a602caadfa7fad"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRCallInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRControlFlowInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRDataLayoutInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRInferIntRangeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRInferTypeOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRLoopLikeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRSideEffectInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRViewLikeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRPass::@833c0ec76d31dd3298b2"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRSupport::@7d84bf6a1a2580884b70"
+		},
+		{
+			"id" : "obj.MLIRPluginsLib::@2237115e932ca8bd0aa2"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "MLIR libraries"
+	},
+	"id" : "MLIRPluginsLib::@2237115e932ca8bd0aa2",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "MLIRPluginsLib",
+	"nameOnDisk" : "libMLIRPluginsLib.a",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Tools/Plugins",
+		"source" : "third_party/llvm-project/mlir/lib/Tools/Plugins"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/Tools/Plugins/CMakeFiles/obj.MLIRPluginsLib.dir/DialectPlugin.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/Tools/Plugins/CMakeFiles/obj.MLIRPluginsLib.dir/PassPlugin.cpp.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

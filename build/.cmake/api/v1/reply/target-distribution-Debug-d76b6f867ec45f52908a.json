@@ -1,0 +1,43 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"llvm_distribution_add_targets"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/LLVMDistributionSupport.cmake",
+			"third_party/llvm-project/llvm/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1327,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 260,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "distribution::@17fa9757f755a3a36189",
+	"name" : "distribution",
+	"paths" : 
+	{
+		"build" : "llvm-project",
+		"source" : "third_party/llvm-project/llvm"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

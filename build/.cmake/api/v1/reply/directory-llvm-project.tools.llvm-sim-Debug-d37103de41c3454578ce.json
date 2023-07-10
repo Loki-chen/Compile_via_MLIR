@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"llvm_add_tool",
+			"add_llvm_tool"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/llvm/tools/llvm-sim/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1363,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1343,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "llvm-sim",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"llvm-project/bin/llvm-sim"
+			],
+			"targetId" : "llvm-sim::@3ea01af3325f11142b6a",
+			"targetIndex" : 680,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/llvm-sim",
+		"source" : "third_party/llvm-project/llvm/tools/llvm-sim"
+	}
+}

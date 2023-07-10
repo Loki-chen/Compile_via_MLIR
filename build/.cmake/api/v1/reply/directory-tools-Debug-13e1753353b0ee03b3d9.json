@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"nisl_cc_binary"
+		],
+		"files" : 
+		[
+			"build-tools/cmake/nisl_cc_binary.cmake",
+			"tools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 5
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"tools/nisl-compile"
+			],
+			"targetId" : "nisl-compile::@b9a00e55f22b3d77656c",
+			"targetIndex" : 712,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"tools/nisl-opt"
+			],
+			"targetId" : "nisl-opt::@b9a00e55f22b3d77656c",
+			"targetIndex" : 713,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"tools/nisl-tblgen"
+			],
+			"targetId" : "nisl-tblgen::@b9a00e55f22b3d77656c",
+			"targetIndex" : 714,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools",
+		"source" : "tools"
+	}
+}

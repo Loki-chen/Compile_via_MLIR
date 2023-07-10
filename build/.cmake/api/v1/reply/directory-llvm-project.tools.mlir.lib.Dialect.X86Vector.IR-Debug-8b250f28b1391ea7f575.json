@@ -1,0 +1,67 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_mlir_library_install",
+			"add_mlir_library",
+			"add_mlir_dialect_library"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/Dialect/X86Vector/IR/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 582,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 535,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "MLIRX86VectorDialect",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"llvm-project/lib/libMLIRX86VectorDialect.a"
+			],
+			"targetId" : "MLIRX86VectorDialect::@454a64769db921510885",
+			"targetIndex" : 533,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Dialect/X86Vector/IR",
+		"source" : "third_party/llvm-project/mlir/lib/Dialect/X86Vector/IR"
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_mlir_library_install",
+			"add_mlir_library"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/Tools/lsp-server-support/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 535,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "MLIRLspServerSupportLib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"llvm-project/lib/libMLIRLspServerSupportLib.a"
+			],
+			"targetId" : "MLIRLspServerSupportLib::@1305c56b8f5ee7d559f4",
+			"targetIndex" : 338,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Tools/lsp-server-support",
+		"source" : "third_party/llvm-project/mlir/lib/Tools/lsp-server-support"
+	}
+}

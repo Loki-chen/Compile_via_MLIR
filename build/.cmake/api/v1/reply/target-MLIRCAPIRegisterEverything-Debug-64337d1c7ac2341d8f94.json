@@ -1,0 +1,1216 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "llvm-project/lib/libMLIRCAPIRegisterEverything.a"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_mlir_library",
+			"add_mlir_public_c_api_library",
+			"add_mlir_upstream_c_api_library",
+			"install",
+			"add_mlir_library_install",
+			"set_target_properties",
+			"add_dependencies",
+			"add_definitions",
+			"add_compile_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/CAPI/CMakeLists.txt",
+			"third_party/llvm-project/mlir/lib/CAPI/RegisterEverything/CMakeLists.txt",
+			"third_party/llvm-project/mlir/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/HandleLLVMOptions.cmake",
+			"third_party/llvm-project/llvm/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/config-ix.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 559,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 590,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 308,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 535,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 336,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 721,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 113,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 122,
+				"parent" : 10
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 896,
+				"parent" : 13
+			},
+			{
+				"file" : 5,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 64,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 85,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 861,
+				"parent" : 13
+			},
+			{
+				"file" : 7,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 338,
+				"parent" : 19
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 87,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 980,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 981,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 982,
+				"parent" : 15
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 130,
+				"parent" : 25
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 1118,
+				"parent" : 13
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 164,
+				"parent" : 10
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 165,
+				"parent" : 10
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDemangle::@9c83ca6f214fa90cef03"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMSupport::@09adc78fa9c468d8ed8e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMCore::@0ce56a6c789f5cb2fd76"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMIRPrinter::@1e0bcd53aa76a0245219"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMIRReader::@e892545346fe02884d2c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMCodeGen::@ff70a61508e69c2c9cf2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBinaryFormat::@6b30d33c39cf21b6e397"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBitReader::@6e73c23d2bf35aaf1711"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBitWriter::@1e9d50baffe15e2f026b"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBitstreamReader::@2f5912312e8bd17934c3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMFrontendOpenMP::@a14c171e6240e85b2319"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMTransformUtils::@bd3a2a051a4460dd08f2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMInstrumentation::@69a7bcf37f922d98f6e8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMAggressiveInstCombine::@824b0fb08c40f53476a7"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMInstCombine::@4611b1836e30b2afb04a"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMScalarOpts::@469f9380fe0f881a3f3f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMipo::@c7f3c879f680a0f72248"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMVectorize::@5e1bbc9793054e4db0cc"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMObjCARCOpts::@cffbbbd133f0dc5c6873"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMCoroutines::@cc10bd8c2f9a6e5926b1"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMLinker::@be8d65418e941a5ed4ec"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMAnalysis::@fbff5b52a41bd64f6865"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMMC::@b3318b7a6ff51cb6aab7"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMMCParser::@c8b1fe2d5da286d5850e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMObject::@c1fb63580eb5db3f6204"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMRemarks::@314ebcae80931e404665"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDebugInfoDWARF::@4d41f24e72822d5c1f6e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDebugInfoMSF::@8ff15003538be78d53f9"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDebugInfoCodeView::@f6c454cb479f4b81e2b6"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDebugInfoPDB::@ca43c1032e080c63d059"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMSymbolize::@c45ccf02e3e645179172"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMTarget::@f7f1081a5d11ba0e8eec"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMAsmParser::@9c928ba4ef974281402e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMProfileData::@c8e42606e5985093a0b7"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMPasses::@0cccc2fd9038ca1918bf"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMTargetParser::@68a51c60cdc806bdbe10"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMTextAPI::@8a7afc158c6124d1a4d0"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "mlir-generic-headers::@86090154e9d834972c07"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRControlFlowToSPIRV::@7dae47576ef4eea07182"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAnalysis::@16dd6b73e5c3a1a9d919"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPresburger::@dead03bb086aa5064571"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAsmParser::@e600e4de6f293878c0a7"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRBytecodeReader::@63ed598705c3e884cfc6"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRBytecodeWriter::@09f34556179e9bfeb6f9"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAffineToStandard::@6ab043e63615c179732d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAMDGPUToROCDL::@cbba608f1a127f0d66d2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArithAttrToLLVMConversion::@4bcfb738a22d51f722cd"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArithToLLVM::@1bc947b1e682ba3b1337"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArithToSPIRV::@36e9c47f0b166009ae1c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArmNeon2dToIntr::@7325348ad3033fecd031"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAsyncToLLVM::@42ef0fba44fa601afa17"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRBufferizationToMemRef::@78dd32c4504985846180"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRComplexToLLVM::@3d2bc498a43d1ad033ac"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRComplexToLibm::@b3c8acba96b88bf21b55"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRComplexToSPIRV::@a36184c41cd6a4d37399"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRComplexToStandard::@a4e308686d6d95a9df92"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRControlFlowToLLVM::@e5ab43f4ede25c10a340"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRFuncToLLVM::@5d955fb5304cd1f3d536"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRFuncToSPIRV::@98a4955736acc0b3c9ec"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRGPUToGPURuntimeTransforms::@617f318b09ab17a8df80"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRGPUToNVVMTransforms::@0e18a9ecc8734b19e8b3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRGPUToROCDLTransforms::@73a080c8b7471ea269b6"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRGPUToSPIRV::@41dfef0d14857b3df1c0"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRGPUToVulkanTransforms::@8d1f24c2371d8f52a94c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRIndexToLLVM::@c351f4122a6133750961"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLinalgToLLVM::@cbbae909a3cd63fa6b5e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLinalgToStandard::@0f3832d7b86b85752f24"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLLVMCommonConversion::@66e3826a23a10580edcc"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMathToFuncs::@afac3b08c348a213a0ab"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMathToLibm::@441f9c406b3adeaf1dc2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMathToLLVM::@01fc546d548ac792542f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMathToSPIRV::@20c3ad74cb23f7a2b528"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMemRefToLLVM::@acb8d0b260acd7f3ab80"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMemRefToSPIRV::@70bb1478c3c5b743bb60"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRNVGPUToNVVM::@5eb7308aba8a1f91486d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIROpenACCToLLVM::@7c36db66f9c6f85bb4b5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIROpenACCToSCF::@b3d9ac801b52925b2aba"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIROpenMPToLLVM::@4bef80946ecab278b1f1"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPDLToPDLInterp::@c08ad8372f39bd94e044"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRReconcileUnrealizedCasts::@c90dc27909ebd8b2adf7"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSCFToControlFlow::@985f48b6c3340f90031b"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSCFToGPU::@dd8a251de22057e19655"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSCFToOpenMP::@3119b9313b16a8277f16"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSCFToSPIRV::@6750461222acda497698"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRShapeToStandard::@abbef7ecfe3a04bd2f87"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSPIRVToLLVM::@f367847471a71422f66d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTensorToLinalg::@c9ab73a2545aa81ae0e5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTensorToSPIRV::@c69e561754fb704ce360"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTosaToArith::@81786785eae62c12c6fa"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTosaToLinalg::@c520658114c7087589f2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTosaToSCF::@dcbb1ad208e27453924c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTosaToTensor::@deb640afc91b398fafe3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRVectorToLLVM::@155dc1a719d3d1389566"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRVectorToGPU::@c743b3178db9b215f913"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRVectorToSCF::@5e0dc3a4d28483a33f3c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRVectorToSPIRV::@1897fb8f65b851d3380d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDialect::@614f451064d8e18968ea"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAffineAnalysis::@8bdd393e50da3a0400a3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAffineDialect::@be010fe0d42eb7f243a4"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAffineTransforms::@86608dde585f502a3bf6"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAffineTransformOps::@a5ba83a9f347dc9aa2be"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAffineUtils::@635a347097e33cf7487d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAMDGPUDialect::@b0ce0ccfaad50a5eb07c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArithDialect::@6d8f5691dcc917c58fb3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArithValueBoundsOpInterfaceImpl::@6d8f5691dcc917c58fb3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArithTransforms::@21385d688fde07a6c5cb"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArithUtils::@87e424cf88f23b7a6a99"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArmNeonDialect::@51e2aaf070fdb60586da"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArmSVEDialect::@3cc50b065c484f4b670a"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArmSVETransforms::@176da618ec39d3268854"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAsyncDialect::@1a5346ff64e6d8ba50eb"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAsyncTransforms::@ddd0a4f1db25cbf9b1be"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAMXDialect::@678f0b6d379803be0597"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAMXTransforms::@29c0ac27c1483b3c108e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRBufferizationDialect::@a3f424e066a9e853dcd2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRBufferizationTransformOps::@b4e24892d5e560087819"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRBufferizationTransforms::@e8b3b93d0aa842b89481"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRComplexDialect::@dd87d802eebec44676e5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRControlFlowDialect::@89bbe1201abf23349d88"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDLTIDialect::@4f1fec80d19b1bd3a45f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIREmitCDialect::@659e2bb4e9dcadd5a5e3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRFuncDialect::@87b6b95a1eae24e5185b"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRFuncTransforms::@97ef59c2a57ed38301b5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRGPUOps::@e0e468725dba94435ada"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRGPUTransforms::@e0e468725dba94435ada"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRGPUTransformOps::@59fa5268da3661f5c7fd"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRIndexDialect::@ce3f974bad55689403a2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRIRDL::@e7dc8d9cf6c6eb9acd23"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLinalgDialect::@c2f49fdb4ae0973049cd"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLinalgTransformOps::@64ce800cf9e5fd05fa8e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLinalgTransforms::@db68f4a2cb79cff4fd5d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLinalgUtils::@522086dd35b77005c523"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLLVMDialect::@cd96239ae0f9ff0de6d9"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRNVVMDialect::@cd96239ae0f9ff0de6d9"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRROCDLDialect::@cd96239ae0f9ff0de6d9"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLLVMIRTransforms::@aa413dd639b1c75dd0ce"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMathDialect::@e86ebf8a3333117b25b6"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMathTransforms::@7d93f7d218a30e786503"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMemRefDialect::@1135ab6d1113482cc217"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMemRefTransformOps::@1638e442c6c2bada4fdd"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMemRefTransforms::@ed930ae3d906000b1cac"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMLProgramDialect::@4a1258ee66dbd0bfbeaa"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRNVGPUDialect::@dc868d449979d83e3fe8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRNVGPUUtils::@795b322400bffdb87631"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRNVGPUTransforms::@97caa96dde6aeba2a5d3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIROpenACCDialect::@3374b45f351f83636301"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIROpenMPDialect::@370beca20ddf29f2650e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPDLDialect::@d7a7b21a97f1727e7577"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPDLInterpDialect::@c587fceb4665edcb20fe"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRQuantDialect::@3ae1abe475c8b535f06e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRQuantUtils::@429a7bd6f333c0d14e9d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSCFDialect::@058ee5b2e43a554a0639"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSCFTransformOps::@acb4da21f43e0511556b"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSCFTransforms::@42a2ba0d8a1496dd3327"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSCFUtils::@ac25dba5fb754daa8652"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRShapeDialect::@0dbbaf8df4f911c6d61e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRShapeOpsTransforms::@50b484e088ad49d5aab9"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSparseTensorDialect::@b7aa8f81677e1832a3de"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSparseTensorTransforms::@9ff4203cadcfb6634eb3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSparseTensorPipelines::@4b5fcfc2d283d1db51e1"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSparseTensorUtils::@305da3a20b5797b04a38"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSPIRVDialect::@03d9edd341b07fcd0613"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSPIRVModuleCombiner::@6471c5ad9e3133ca3827"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSPIRVConversion::@4ebba676eaafb6027e28"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSPIRVTransforms::@4ebba676eaafb6027e28"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSPIRVUtils::@01b48c03e8e0850b5b30"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTensorDialect::@02d00658dc60d223f48c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTensorInferTypeOpInterfaceImpl::@02d00658dc60d223f48c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTensorTilingInterfaceImpl::@02d00658dc60d223f48c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTensorTransforms::@674c16ffef35b1692f3f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTensorTransformOps::@dec623b6ea1456f6bca9"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTensorUtils::@c3d0d9b0f5de0eeb33f3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTosaDialect::@fb90b179a527fd874b83"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTosaTransforms::@34c5ff8bc15c1e8af102"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTransformDialect::@248767e547761101d79a"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTransformDialectTransforms::@0df0b1bf004a3065cd15"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTransformDialectUtils::@fb535485bca588c9fa88"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDialectUtils::@81ba9a55115f5eee939a"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRVectorDialect::@f36dcfd0805c7097cb5b"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMaskableOpInterface::@2efe9a8e63e180c16c71"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMaskingOpInterface::@2efe9a8e63e180c16c71"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRVectorTransforms::@4d9eb135156e61f6b75d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRVectorTransformOps::@30e2feb2538d23e1f2a1"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRVectorUtils::@ebce54674cf1dadc54c6"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRX86VectorDialect::@454a64769db921510885"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRX86VectorTransforms::@ae5b75e3d291e3fc1875"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRIR::@71c528a602caadfa7fad"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRCallInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRCastInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRControlFlowInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRCopyOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDataLayoutInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDestinationStyleOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRInferIntRangeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRInferTypeOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLoopLikeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRParallelCombiningOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRRuntimeVerifiableOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRShapedOpInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSideEffectInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTilingInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRVectorInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRViewLikeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRValueBoundsOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRInferIntRangeCommon::@92cdcbe73246d27096b5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRParser::@d2b77288481014a3a01c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPass::@833c0ec76d31dd3298b2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRRewrite::@92b0e8dd4f8ee74babd5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSupport::@7d84bf6a1a2580884b70"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTargetCpp::@289a2fd216f0ac04599a"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSPIRVBinaryUtils::@caead622ba4016e31d45"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSPIRVTranslateRegistration::@caead622ba4016e31d45"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSPIRVDeserialization::@7e8381a1721713b4a65f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSPIRVSerialization::@f403b3c01c7301c8db3d"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTargetLLVMIRExport::@92f9af5fd06f962657d0"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRToLLVMIRTranslationRegistration::@92f9af5fd06f962657d0"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTargetLLVMIRImport::@92f9af5fd06f962657d0"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRFromLLVMIRTranslationRegistration::@92f9af5fd06f962657d0"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArmNeonToLLVMIRTranslation::@b9cc8cf9cc3fb9e7f325"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArmSVEToLLVMIRTranslation::@f2a2b60d3ce2a3011c53"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAMXToLLVMIRTranslation::@1cca1db0964784c8009c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRBuiltinToLLVMIRTranslation::@c1bc3025febbb3ac1883"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRGPUToLLVMIRTranslation::@e01f946a90617436a975"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLLVMIRToLLVMTranslation::@3d7706f7d6dfcc471823"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLLVMToLLVMIRTranslation::@3d7706f7d6dfcc471823"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRNVVMToLLVMIRTranslation::@fe914d5dfbf5c4c23814"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIROpenACCToLLVMIRTranslation::@40fed1ef909d5c83c39c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIROpenMPToLLVMIRTranslation::@1b4bfaa4b65bfdaebf57"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRROCDLToLLVMIRTranslation::@7592120cd1a052ad0f21"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRX86VectorToLLVMIRTranslation::@981defc5c15c7488872f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTranslateLib::@3f5341d4054092cead3e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTransforms::@63e715175c1498f7d7a4"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTransformUtils::@a6f31ed1823794ba5044"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRExecutionEngineUtils::@72f70a7a9abba18d2049"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRCAPIIR::@ce425c65793baf93ebc1"
+		},
+		{
+			"id" : "obj.MLIRCAPIRegisterEverything::@e1ef7375b51e9847504b"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRCAPITransforms::@e7e247c65a76f1dd07ba"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "MLIR libraries"
+	},
+	"id" : "MLIRCAPIRegisterEverything::@e1ef7375b51e9847504b",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "MLIRCAPIRegisterEverything",
+	"nameOnDisk" : "libMLIRCAPIRegisterEverything.a",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/CAPI/RegisterEverything",
+		"source" : "third_party/llvm-project/mlir/lib/CAPI/RegisterEverything"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/CAPI/RegisterEverything/CMakeFiles/obj.MLIRCAPIRegisterEverything.dir/RegisterEverything.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "third_party/llvm-project/mlir/include/mlir/Dialect/SparseTensor/IR/Enums.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

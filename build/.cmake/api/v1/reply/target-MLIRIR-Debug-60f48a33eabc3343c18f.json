@@ -1,0 +1,580 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "llvm-project/lib/libMLIRIR.a"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_mlir_library",
+			"install",
+			"add_mlir_library_install",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"add_compile_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/IR/CMakeLists.txt",
+			"third_party/llvm-project/mlir/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/HandleLLVMOptions.cmake",
+			"third_party/llvm-project/llvm/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/config-ix.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 590,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 308,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 535,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 714,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 721,
+				"parent" : 2
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 113,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 122,
+				"parent" : 8
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 896,
+				"parent" : 11
+			},
+			{
+				"file" : 4,
+				"parent" : 12
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 85,
+				"parent" : 13
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 861,
+				"parent" : 11
+			},
+			{
+				"file" : 6,
+				"parent" : 16
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 338,
+				"parent" : 17
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 87,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 980,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 981,
+				"parent" : 13
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 982,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 130,
+				"parent" : 23
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 1118,
+				"parent" : 11
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 164,
+				"parent" : 8
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 165,
+				"parent" : 8
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "LLVMDemangle::@9c83ca6f214fa90cef03"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "LLVMSupport::@09adc78fa9c468d8ed8e"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "mlir-generic-headers::@86090154e9d834972c07"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIROpAsmInterfaceIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRSymbolInterfacesIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRRegionKindInterfaceIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRBuiltinAttributesIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRBuiltinAttributeInterfacesIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRBuiltinDialectIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRBuiltinLocationAttributesIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRBuiltinOpsIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRBuiltinTypesIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRBuiltinTypeInterfacesIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRTensorEncodingIncGen::@ed8cdfcc831a6ac17499"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRCallInterfacesIncGen::@363b3be1386e80b811b5"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRCastInterfacesIncGen::@363b3be1386e80b811b5"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRSideEffectInterfacesIncGen::@363b3be1386e80b811b5"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRDataLayoutInterfacesIncGen::@363b3be1386e80b811b5"
+		},
+		{
+			"id" : "obj.MLIRIR::@71c528a602caadfa7fad"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRSupport::@7d84bf6a1a2580884b70"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "MLIR libraries"
+	},
+	"id" : "MLIRIR::@71c528a602caadfa7fad",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "MLIRIR",
+	"nameOnDisk" : "libMLIRIR.a",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/IR",
+		"source" : "third_party/llvm-project/mlir/lib/IR"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/AffineExpr.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/AffineMap.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/AsmPrinter.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Attributes.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/AttrTypeSubElements.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Block.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Builders.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/BuiltinAttributeInterfaces.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/BuiltinAttributes.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/BuiltinDialect.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/BuiltinDialectBytecode.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/BuiltinTypes.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/BuiltinTypeInterfaces.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Diagnostics.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Dialect.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/DialectResourceBlobManager.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Dominance.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/ExtensibleDialect.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/FunctionImplementation.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/FunctionInterfaces.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/IntegerSet.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Location.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/MLIRContext.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Operation.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/OperationSupport.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/PatternMatch.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Region.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/RegionKindInterface.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/SymbolTable.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/TensorEncoding.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Types.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/TypeRange.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/TypeUtilities.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Unit.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Value.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/ValueRange.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Verifier.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/IR/CMakeFiles/obj.MLIRIR.dir/Visitors.cpp.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

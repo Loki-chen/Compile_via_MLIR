@@ -1,0 +1,103 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_mlir_library_install",
+			"add_mlir_library",
+			"add_mlir_dialect_library"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/Dialect/SPIRV/Transforms/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 582,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 535,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 582,
+				"parent" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 6
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 535,
+				"parent" : 7
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "MLIRSPIRVConversion",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"llvm-project/lib/libMLIRSPIRVConversion.a"
+			],
+			"targetId" : "MLIRSPIRVConversion::@4ebba676eaafb6027e28",
+			"targetIndex" : 436,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "MLIRSPIRVTransforms",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"llvm-project/lib/libMLIRSPIRVTransforms.a"
+			],
+			"targetId" : "MLIRSPIRVTransforms::@4ebba676eaafb6027e28",
+			"targetIndex" : 447,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Dialect/SPIRV/Transforms",
+		"source" : "third_party/llvm-project/mlir/lib/Dialect/SPIRV/Transforms"
+	}
+}

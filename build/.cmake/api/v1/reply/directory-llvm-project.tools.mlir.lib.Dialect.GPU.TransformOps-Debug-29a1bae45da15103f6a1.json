@@ -1,0 +1,67 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_mlir_library_install",
+			"add_mlir_library",
+			"add_mlir_dialect_library"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/Dialect/GPU/TransformOps/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 582,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 535,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 4,
+			"component" : "MLIRGPUTransformOps",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"llvm-project/lib/libMLIRGPUTransformOps.a"
+			],
+			"targetId" : "MLIRGPUTransformOps::@59fa5268da3661f5c7fd",
+			"targetIndex" : 291,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Dialect/GPU/TransformOps",
+		"source" : "third_party/llvm-project/mlir/lib/Dialect/GPU/TransformOps"
+	}
+}

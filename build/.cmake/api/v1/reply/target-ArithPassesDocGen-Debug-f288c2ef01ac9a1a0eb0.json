@@ -1,0 +1,110 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_mlir_doc",
+			"add_custom_command",
+			"tablegen"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/include/mlir/Dialect/Arith/Transforms/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/TableGen.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "mlir-tblgen::@f00ed296c5f5525f4dbe"
+		}
+	],
+	"id" : "ArithPassesDocGen::@4f0fddefbce0e0e086ef",
+	"name" : "ArithPassesDocGen",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/include/mlir/Dialect/Arith/Transforms",
+		"source" : "third_party/llvm-project/mlir/include/mlir/Dialect/Arith/Transforms"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/Arith/Transforms/CMakeFiles/ArithPassesDocGen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/Arith/Transforms/CMakeFiles/ArithPassesDocGen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/docs/ArithPasses.md.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/Arith/Transforms/ArithPasses.md.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

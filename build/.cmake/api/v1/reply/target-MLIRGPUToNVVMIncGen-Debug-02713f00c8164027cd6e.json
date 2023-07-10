@@ -1,0 +1,114 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_public_tablegen_target",
+			"add_custom_command",
+			"tablegen",
+			"mlir_tablegen"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/TableGen.cmake",
+			"third_party/llvm-project/mlir/lib/Conversion/GPUToNVVM/CMakeLists.txt",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "mlir-tblgen::@f00ed296c5f5525f4dbe"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tablegenning"
+	},
+	"id" : "MLIRGPUToNVVMIncGen::@0e18a9ecc8734b19e8b3",
+	"name" : "MLIRGPUToNVVMIncGen",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Conversion/GPUToNVVM",
+		"source" : "third_party/llvm-project/mlir/lib/Conversion/GPUToNVVM"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/Conversion/GPUToNVVM/CMakeFiles/MLIRGPUToNVVMIncGen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/Conversion/GPUToNVVM/CMakeFiles/MLIRGPUToNVVMIncGen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/Conversion/GPUToNVVM/GPUToNVVM.cpp.inc.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

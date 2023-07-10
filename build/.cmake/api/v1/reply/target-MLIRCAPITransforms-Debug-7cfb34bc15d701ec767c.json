@@ -1,0 +1,356 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "llvm-project/lib/libMLIRCAPITransforms.a"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_mlir_library",
+			"add_mlir_public_c_api_library",
+			"add_mlir_upstream_c_api_library",
+			"install",
+			"add_mlir_library_install",
+			"set_target_properties",
+			"add_dependencies",
+			"add_definitions",
+			"add_compile_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/CAPI/CMakeLists.txt",
+			"third_party/llvm-project/mlir/lib/CAPI/Transforms/CMakeLists.txt",
+			"third_party/llvm-project/mlir/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/HandleLLVMOptions.cmake",
+			"third_party/llvm-project/llvm/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/config-ix.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 559,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 590,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 308,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 535,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 336,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 721,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 113,
+				"parent" : 10
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 122,
+				"parent" : 10
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 896,
+				"parent" : 13
+			},
+			{
+				"file" : 5,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 64,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 85,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 861,
+				"parent" : 13
+			},
+			{
+				"file" : 7,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 338,
+				"parent" : 19
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 87,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 980,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 981,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 982,
+				"parent" : 15
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 12,
+				"file" : 8,
+				"line" : 130,
+				"parent" : 25
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 1118,
+				"parent" : 13
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 164,
+				"parent" : 10
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 165,
+				"parent" : 10
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDemangle::@9c83ca6f214fa90cef03"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMSupport::@09adc78fa9c468d8ed8e"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "mlir-generic-headers::@86090154e9d834972c07"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAnalysis::@16dd6b73e5c3a1a9d919"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPresburger::@dead03bb086aa5064571"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPDLToPDLInterp::@c08ad8372f39bd94e044"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPDLDialect::@d7a7b21a97f1727e7577"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPDLInterpDialect::@c587fceb4665edcb20fe"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRIR::@71c528a602caadfa7fad"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRCallInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRControlFlowInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRCopyOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDataLayoutInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRInferIntRangeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRInferTypeOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLoopLikeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRRuntimeVerifiableOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSideEffectInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRViewLikeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPass::@833c0ec76d31dd3298b2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRRewrite::@92b0e8dd4f8ee74babd5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSupport::@7d84bf6a1a2580884b70"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTransforms::@63e715175c1498f7d7a4"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTransformUtils::@a6f31ed1823794ba5044"
+		},
+		{
+			"id" : "obj.MLIRCAPITransforms::@e7e247c65a76f1dd07ba"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "MLIR libraries"
+	},
+	"id" : "MLIRCAPITransforms::@e7e247c65a76f1dd07ba",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "MLIRCAPITransforms",
+	"nameOnDisk" : "libMLIRCAPITransforms.a",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/CAPI/Transforms",
+		"source" : "third_party/llvm-project/mlir/lib/CAPI/Transforms"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/CAPI/Transforms/CMakeFiles/obj.MLIRCAPITransforms.dir/Passes.cpp.o",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

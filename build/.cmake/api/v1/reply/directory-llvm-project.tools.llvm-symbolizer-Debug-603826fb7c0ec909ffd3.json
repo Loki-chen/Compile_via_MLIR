@@ -1,0 +1,98 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"llvm_add_tool",
+			"add_llvm_tool",
+			"llvm_install_symlink",
+			"llvm_add_tool_symlink",
+			"add_llvm_tool_symlink"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/llvm/tools/llvm-symbolizer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1363,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1343,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 2212,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 2206,
+				"parent" : 5
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2109,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "llvm-symbolizer",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"llvm-project/bin/llvm-symbolizer"
+			],
+			"targetId" : "llvm-symbolizer::@4a61c2a999f29dbe46cc",
+			"targetIndex" : 687,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "llvm-addr2line",
+			"scriptFile" : "third_party/llvm-project/llvm/cmake/modules/LLVMInstallSymlink.cmake",
+			"type" : "script"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "llvm-addr2line",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/llvm-symbolizer",
+		"source" : "third_party/llvm-project/llvm/tools/llvm-symbolizer"
+	}
+}

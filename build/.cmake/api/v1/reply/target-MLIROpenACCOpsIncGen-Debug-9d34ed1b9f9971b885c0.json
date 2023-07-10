@@ -1,0 +1,181 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_public_tablegen_target",
+			"add_custom_command",
+			"tablegen",
+			"mlir_tablegen",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/TableGen.cmake",
+			"third_party/llvm-project/mlir/include/mlir/Dialect/OpenACC/CMakeLists.txt",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "mlir-tblgen::@f00ed296c5f5525f4dbe"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "acc_common_td::@9ff50dd9ff639b5d93ca"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tablegenning"
+	},
+	"id" : "MLIROpenACCOpsIncGen::@9ff50dd9ff639b5d93ca",
+	"name" : "MLIROpenACCOpsIncGen",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/include/mlir/Dialect/OpenACC",
+		"source" : "third_party/llvm-project/mlir/include/mlir/Dialect/OpenACC"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/CMakeFiles/MLIROpenACCOpsIncGen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/CMakeFiles/MLIROpenACCOpsIncGen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/AccCommon.td.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/OpenACCOps.cpp.inc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/OpenACCOps.h.inc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/OpenACCOpsAttributes.cpp.inc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/OpenACCOpsAttributes.h.inc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/OpenACCOpsDialect.cpp.inc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/OpenACCOpsDialect.h.inc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/OpenACCOpsEnums.cpp.inc.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/include/mlir/Dialect/OpenACC/OpenACCOpsEnums.h.inc.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

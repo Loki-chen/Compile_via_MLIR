@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "llvm-project/lib/ToolDrivers",
+		"source" : "third_party/llvm-project/llvm/lib/ToolDrivers"
+	}
+}

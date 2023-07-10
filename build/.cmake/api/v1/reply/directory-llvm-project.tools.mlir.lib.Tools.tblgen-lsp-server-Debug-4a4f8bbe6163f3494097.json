@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Tools/tblgen-lsp-server",
+		"source" : "third_party/llvm-project/mlir/lib/Tools/tblgen-lsp-server"
+	}
+}

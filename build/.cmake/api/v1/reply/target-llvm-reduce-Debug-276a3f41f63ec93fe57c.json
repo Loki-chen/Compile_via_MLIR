@@ -1,0 +1,1218 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "llvm-project/bin/llvm-reduce"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_llvm_executable",
+			"llvm_add_tool",
+			"add_llvm_tool",
+			"install",
+			"target_link_libraries",
+			"explicit_llvm_config",
+			"llvm_config",
+			"llvm_add_library",
+			"add_llvm_library",
+			"add_llvm_component_library",
+			"add_dependencies",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_compile_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/llvm/tools/llvm-reduce/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/LLVM-Config.cmake",
+			"third_party/llvm-project/llvm/lib/CodeGen/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/Passes/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/Transforms/IPO/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/Analysis/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/ProfileData/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/DebugInfo/Symbolize/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/DebugInfo/PDB/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/IRReader/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/IR/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/Bitcode/Reader/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/Object/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/MC/CMakeLists.txt",
+			"third_party/llvm-project/llvm/lib/Support/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/HandleLLVMOptions.cmake",
+			"third_party/llvm-project/llvm/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/config-ix.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1363,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1338,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 967,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1343,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1014,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 95,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 107,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1029,
+				"parent" : 3
+			},
+			{
+				"file" : 3
+			},
+			{
+				"file" : 4
+			},
+			{
+				"file" : 5
+			},
+			{
+				"file" : 6
+			},
+			{
+				"file" : 7
+			},
+			{
+				"file" : 8
+			},
+			{
+				"file" : 9
+			},
+			{
+				"file" : 10
+			},
+			{
+				"file" : 11
+			},
+			{
+				"file" : 12
+			},
+			{
+				"file" : 13
+			},
+			{
+				"file" : 14
+			},
+			{
+				"file" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 15,
+				"line" : 119,
+				"parent" : 22
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 825,
+				"parent" : 23
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 850,
+				"parent" : 24
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 714,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 1016,
+				"parent" : 3
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 989,
+				"parent" : 3
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 28
+			},
+			{
+				"file" : 17
+			},
+			{
+				"command" : 15,
+				"file" : 17,
+				"line" : 896,
+				"parent" : 30
+			},
+			{
+				"file" : 16,
+				"parent" : 31
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 64,
+				"parent" : 32
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 85,
+				"parent" : 32
+			},
+			{
+				"command" : 15,
+				"file" : 17,
+				"line" : 861,
+				"parent" : 30
+			},
+			{
+				"file" : 18,
+				"parent" : 35
+			},
+			{
+				"command" : 14,
+				"file" : 18,
+				"line" : 338,
+				"parent" : 36
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 87,
+				"parent" : 32
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 980,
+				"parent" : 32
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 981,
+				"parent" : 32
+			},
+			{
+				"command" : 14,
+				"file" : 16,
+				"line" : 982,
+				"parent" : 32
+			},
+			{
+				"file" : 19
+			},
+			{
+				"command" : 16,
+				"file" : 19,
+				"line" : 130,
+				"parent" : 42
+			},
+			{
+				"command" : 16,
+				"file" : 17,
+				"line" : 1118,
+				"parent" : 30
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fno-rtti -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -w -fdiagnostics-color -g"
+				},
+				{
+					"fragment" : " -fno-exceptions -funwind-tables -fno-rtti"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 29,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 33,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 34,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 37,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 38,
+					"define" : "_LIBCPP_ENABLE_ASSERTIONS"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 40,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 41,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/llvm-reduce"
+				},
+				{
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/llvm/tools/llvm-reduce"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/home/MLIR-Compiler/compiler"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/include"
+				},
+				{
+					"backtrace" : 44,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/llvm/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/mlir/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/mlir/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/lld/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/lld/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDemangle::@9c83ca6f214fa90cef03"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMSupport::@09adc78fa9c468d8ed8e"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "intrinsics_gen::@c1fff590807f1b87af6e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMCore::@0ce56a6c789f5cb2fd76"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMIRPrinter::@1e0bcd53aa76a0245219"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMIRReader::@e892545346fe02884d2c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMCodeGen::@ff70a61508e69c2c9cf2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMMIRParser::@fab3327c4796c3054b13"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBinaryFormat::@6b30d33c39cf21b6e397"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBitReader::@6e73c23d2bf35aaf1711"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBitWriter::@1e9d50baffe15e2f026b"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBitstreamReader::@2f5912312e8bd17934c3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMFrontendOpenMP::@a14c171e6240e85b2319"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMTransformUtils::@bd3a2a051a4460dd08f2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMInstrumentation::@69a7bcf37f922d98f6e8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMAggressiveInstCombine::@824b0fb08c40f53476a7"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMInstCombine::@4611b1836e30b2afb04a"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMScalarOpts::@469f9380fe0f881a3f3f"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMipo::@c7f3c879f680a0f72248"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMVectorize::@5e1bbc9793054e4db0cc"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMObjCARCOpts::@cffbbbd133f0dc5c6873"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMCoroutines::@cc10bd8c2f9a6e5926b1"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMLinker::@be8d65418e941a5ed4ec"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMAnalysis::@fbff5b52a41bd64f6865"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMMC::@b3318b7a6ff51cb6aab7"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMMCParser::@c8b1fe2d5da286d5850e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMObject::@c1fb63580eb5db3f6204"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMRemarks::@314ebcae80931e404665"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDebugInfoDWARF::@4d41f24e72822d5c1f6e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDebugInfoMSF::@8ff15003538be78d53f9"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDebugInfoCodeView::@f6c454cb479f4b81e2b6"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMDebugInfoPDB::@ca43c1032e080c63d059"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMSymbolize::@c45ccf02e3e645179172"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMTarget::@f7f1081a5d11ba0e8eec"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMAsmParser::@9c928ba4ef974281402e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMProfileData::@c8e42606e5985093a0b7"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMPasses::@0cccc2fd9038ca1918bf"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMTargetParser::@68a51c60cdc806bdbe10"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMTextAPI::@8a7afc158c6124d1a4d0"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tools"
+	},
+	"id" : "llvm-reduce::@95e539737b56cb1df4e2",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-rtti -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -w -fdiagnostics-color -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/MLIR-Compiler/build/llvm-project/./lib",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN/../lib\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMAnalysis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMBitReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMBitWriter.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMCodeGen.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMCore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMIRReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMMC.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMMIRParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMPasses.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMTarget.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMTargetParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMTransformUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMipo.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMCodeGen.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMTarget.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "llvm-project/lib/libLLVMObjCARCOpts.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "llvm-project/lib/libLLVMCoroutines.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMipo.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMBitWriter.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "llvm-project/lib/libLLVMFrontendOpenMP.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "llvm-project/lib/libLLVMLinker.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "llvm-project/lib/libLLVMScalarOpts.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "llvm-project/lib/libLLVMAggressiveInstCombine.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "llvm-project/lib/libLLVMInstCombine.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "llvm-project/lib/libLLVMIRPrinter.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "llvm-project/lib/libLLVMVectorize.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "llvm-project/lib/libLLVMInstrumentation.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMTransformUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMAnalysis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "llvm-project/lib/libLLVMProfileData.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "llvm-project/lib/libLLVMSymbolize.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "llvm-project/lib/libLLVMDebugInfoPDB.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "llvm-project/lib/libLLVMDebugInfoMSF.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "llvm-project/lib/libLLVMDebugInfoDWARF.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "llvm-project/lib/libLLVMObject.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMIRReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMBitReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "llvm-project/lib/libLLVMAsmParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMCore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "llvm-project/lib/libLLVMRemarks.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "llvm-project/lib/libLLVMBitstreamReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "llvm-project/lib/libLLVMMCParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMMC.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "llvm-project/lib/libLLVMDebugInfoCodeView.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "llvm-project/lib/libLLVMTextAPI.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "llvm-project/lib/libLLVMBinaryFormat.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMTargetParser.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "llvm-project/lib/libLLVMSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtinfo.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "llvm-project/lib/libLLVMDemangle.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "llvm-reduce",
+	"nameOnDisk" : "llvm-reduce",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/llvm-reduce",
+		"source" : "third_party/llvm-project/llvm/tools/llvm-reduce"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				40,
+				41,
+				42
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/DeltaManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/ReducerWorkItem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/TestRunner.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/Delta.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/Utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceAliases.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceArguments.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceAttributes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceBasicBlocks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceDIMetadata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceFunctionBodies.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceFunctions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceGlobalObjects.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceGlobalValues.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceGlobalVarInitializers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceGlobalVars.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceInstructions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceInstructionFlags.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceInvokes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceMetadata.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceModuleData.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceMemoryOperations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceOperandBundles.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceOpcodes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceSpecialGlobals.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceOperands.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceOperandsSkip.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceOperandsToArgs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceInstructionsMIR.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceInstructionFlagsMIR.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceIRReferences.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceVirtualRegisters.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceRegisterMasks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceRegisterDefs.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceRegisterUses.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/ReduceUsingSimplifyCFG.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/RunIRPasses.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/SimplifyInstructions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/deltas/StripDebugInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/llvm-reduce.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/DeltaManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/ReducerWorkItem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "third_party/llvm-project/llvm/tools/llvm-reduce/TestRunner.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

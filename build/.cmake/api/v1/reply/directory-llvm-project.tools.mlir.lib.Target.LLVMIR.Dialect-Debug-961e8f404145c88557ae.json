@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Target/LLVMIR/Dialect",
+		"source" : "third_party/llvm-project/mlir/lib/Target/LLVMIR/Dialect"
+	}
+}

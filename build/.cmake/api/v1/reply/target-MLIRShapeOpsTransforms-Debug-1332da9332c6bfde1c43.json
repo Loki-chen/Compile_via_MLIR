@@ -1,0 +1,502 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "llvm-project/lib/libMLIRShapeOpsTransforms.a"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_mlir_library",
+			"add_mlir_dialect_library",
+			"install",
+			"add_mlir_library_install",
+			"target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"add_compile_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/Dialect/Shape/Transforms/CMakeLists.txt",
+			"third_party/llvm-project/mlir/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/HandleLLVMOptions.cmake",
+			"third_party/llvm-project/llvm/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/config-ix.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 582,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 590,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 308,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 535,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 714,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 721,
+				"parent" : 3
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 113,
+				"parent" : 10
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 122,
+				"parent" : 10
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 896,
+				"parent" : 13
+			},
+			{
+				"file" : 4,
+				"parent" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 85,
+				"parent" : 15
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 861,
+				"parent" : 13
+			},
+			{
+				"file" : 6,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 338,
+				"parent" : 19
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 87,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 980,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 981,
+				"parent" : 15
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 982,
+				"parent" : 15
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 11,
+				"file" : 7,
+				"line" : 130,
+				"parent" : 25
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 1118,
+				"parent" : 13
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 164,
+				"parent" : 10
+			},
+			{
+				"command" : 11,
+				"file" : 3,
+				"line" : 165,
+				"parent" : 10
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "LLVMDemangle::@9c83ca6f214fa90cef03"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "LLVMSupport::@09adc78fa9c468d8ed8e"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMCore::@0ce56a6c789f5cb2fd76"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBinaryFormat::@6b30d33c39cf21b6e397"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMBitstreamReader::@2f5912312e8bd17934c3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMRemarks::@314ebcae80931e404665"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "LLVMTargetParser::@68a51c60cdc806bdbe10"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "mlir-generic-headers::@86090154e9d834972c07"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "mlir-headers::@86090154e9d834972c07"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "MLIRShapeTransformsIncGen::@c47ec0cdfb6700d9f984"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAnalysis::@16dd6b73e5c3a1a9d919"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPresburger::@dead03bb086aa5064571"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPDLToPDLInterp::@c08ad8372f39bd94e044"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDialect::@614f451064d8e18968ea"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRAffineDialect::@be010fe0d42eb7f243a4"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArithDialect::@6d8f5691dcc917c58fb3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRArithUtils::@87e424cf88f23b7a6a99"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRBufferizationDialect::@a3f424e066a9e853dcd2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRBufferizationTransforms::@e8b3b93d0aa842b89481"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRComplexDialect::@dd87d802eebec44676e5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRControlFlowDialect::@89bbe1201abf23349d88"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRFuncDialect::@87b6b95a1eae24e5185b"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRMemRefDialect::@1135ab6d1113482cc217"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPDLDialect::@d7a7b21a97f1727e7577"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPDLInterpDialect::@c587fceb4665edcb20fe"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRShapeDialect::@0dbbaf8df4f911c6d61e"
+		},
+		{
+			"id" : "obj.MLIRShapeOpsTransforms::@50b484e088ad49d5aab9"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSparseTensorDialect::@b7aa8f81677e1832a3de"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTensorDialect::@02d00658dc60d223f48c"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDialectUtils::@81ba9a55115f5eee939a"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRIR::@71c528a602caadfa7fad"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRCallInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRCastInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRControlFlowInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRCopyOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDataLayoutInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDestinationStyleOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRInferIntRangeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRInferTypeOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRLoopLikeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRParallelCombiningOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRRuntimeVerifiableOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRShapedOpInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSideEffectInterfaces::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRViewLikeInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRValueBoundsOpInterface::@794e58fe8678f9425ca8"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRInferIntRangeCommon::@92cdcbe73246d27096b5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRPass::@833c0ec76d31dd3298b2"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRRewrite::@92b0e8dd4f8ee74babd5"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRSupport::@7d84bf6a1a2580884b70"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTransforms::@63e715175c1498f7d7a4"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRTransformUtils::@a6f31ed1823794ba5044"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "MLIR libraries"
+	},
+	"id" : "MLIRShapeOpsTransforms::@50b484e088ad49d5aab9",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "MLIRShapeOpsTransforms",
+	"nameOnDisk" : "libMLIRShapeOpsTransforms.a",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Dialect/Shape/Transforms",
+		"source" : "third_party/llvm-project/mlir/lib/Dialect/Shape/Transforms"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/Dialect/Shape/Transforms/CMakeFiles/obj.MLIRShapeOpsTransforms.dir/BufferizableOpInterfaceImpl.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/Dialect/Shape/Transforms/CMakeFiles/obj.MLIRShapeOpsTransforms.dir/Bufferize.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/Dialect/Shape/Transforms/CMakeFiles/obj.MLIRShapeOpsTransforms.dir/OutlineShapeComputation.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/Dialect/Shape/Transforms/CMakeFiles/obj.MLIRShapeOpsTransforms.dir/RemoveShapeConstraints.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/lib/Dialect/Shape/Transforms/CMakeFiles/obj.MLIRShapeOpsTransforms.dir/ShapeToShapeLowering.cpp.o",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"path" : "third_party/llvm-project/mlir/include/mlir/Dialect/SparseTensor/IR/Enums.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

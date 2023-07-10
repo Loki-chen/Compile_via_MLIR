@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"process_llvm_pass_plugins"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1253,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1264,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1328,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1136,
+				"parent" : 3
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "llvm-headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"third_party/llvm-project/llvm/include/llvm",
+				"third_party/llvm-project/llvm/include/llvm-c"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "llvm-headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"build/llvm-project/include/llvm",
+				"build/llvm-project/include/llvm-c"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "cmake-exports",
+			"destination" : "lib/cmake/llvm",
+			"paths" : 
+			[
+				"build/llvm-project/./lib/cmake/llvm/LLVMConfigExtensions.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llvm-project",
+		"source" : "third_party/llvm-project/llvm"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/tools/mlir-spirv-cpu-runner",
+		"source" : "third_party/llvm-project/mlir/tools/mlir-spirv-cpu-runner"
+	}
+}

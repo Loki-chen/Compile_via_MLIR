@@ -1,0 +1,72 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/mlir/tools/mlir-linalg-ods-gen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "mlir-linalg-ods-yaml-gen::@cdda57ec8cb1acdbbaba"
+		}
+	],
+	"id" : "mlir-linalg-ods-yaml-gen-host::@cdda57ec8cb1acdbbaba",
+	"name" : "mlir-linalg-ods-yaml-gen-host",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/tools/mlir-linalg-ods-gen",
+		"source" : "third_party/llvm-project/mlir/tools/mlir-linalg-ods-gen"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/tools/mlir-linalg-ods-gen/CMakeFiles/mlir-linalg-ods-yaml-gen-host",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/llvm-project/tools/mlir/tools/mlir-linalg-ods-gen/CMakeFiles/mlir-linalg-ods-yaml-gen-host.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

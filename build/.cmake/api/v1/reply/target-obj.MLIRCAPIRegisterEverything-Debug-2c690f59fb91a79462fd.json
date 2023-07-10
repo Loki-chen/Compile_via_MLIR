@@ -1,0 +1,2110 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "llvm-project/tools/mlir/lib/CAPI/RegisterEverything/CMakeFiles/obj.MLIRCAPIRegisterEverything.dir/./RegisterEverything.cpp.o"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_mlir_library",
+			"add_mlir_public_c_api_library",
+			"add_mlir_upstream_c_api_library",
+			"install",
+			"add_mlir_library_install",
+			"add_dependencies",
+			"set_property",
+			"llvm_update_compile_flags",
+			"target_compile_definitions",
+			"add_definitions",
+			"add_compile_definitions",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/CAPI/CMakeLists.txt",
+			"third_party/llvm-project/mlir/lib/CAPI/RegisterEverything/CMakeLists.txt",
+			"third_party/llvm-project/mlir/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/HandleLLVMOptions.cmake",
+			"third_party/llvm-project/llvm/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/config-ix.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 559,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 519,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 349,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 535,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 538,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 522,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 171
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 573,
+				"parent" : 2
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 113,
+				"parent" : 174
+			},
+			{
+				"command" : 11,
+				"file" : 4,
+				"line" : 122,
+				"parent" : 174
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 13,
+				"file" : 6,
+				"line" : 896,
+				"parent" : 177
+			},
+			{
+				"file" : 5,
+				"parent" : 178
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 64,
+				"parent" : 179
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 85,
+				"parent" : 179
+			},
+			{
+				"command" : 13,
+				"file" : 6,
+				"line" : 861,
+				"parent" : 177
+			},
+			{
+				"file" : 7,
+				"parent" : 182
+			},
+			{
+				"command" : 12,
+				"file" : 7,
+				"line" : 338,
+				"parent" : 183
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 87,
+				"parent" : 179
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 980,
+				"parent" : 179
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 981,
+				"parent" : 179
+			},
+			{
+				"command" : 12,
+				"file" : 5,
+				"line" : 982,
+				"parent" : 179
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 14,
+				"file" : 8,
+				"line" : 130,
+				"parent" : 189
+			},
+			{
+				"command" : 14,
+				"file" : 6,
+				"line" : 1118,
+				"parent" : 177
+			},
+			{
+				"command" : 14,
+				"file" : 4,
+				"line" : 164,
+				"parent" : 174
+			},
+			{
+				"command" : 14,
+				"file" : 4,
+				"line" : 165,
+				"parent" : 174
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 534,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fno-rtti -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -w -fdiagnostics-color -g -fvisibility=hidden"
+				},
+				{
+					"fragment" : " -fno-exceptions -funwind-tables -fno-rtti"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 172,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 173,
+					"define" : "MLIR_CAPI_BUILDING_LIBRARY=1"
+				},
+				{
+					"backtrace" : 175,
+					"define" : "MLIR_CUDA_CONVERSIONS_ENABLED=0"
+				},
+				{
+					"backtrace" : 176,
+					"define" : "MLIR_ROCM_CONVERSIONS_ENABLED=0"
+				},
+				{
+					"backtrace" : 180,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 181,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 184,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 185,
+					"define" : "_LIBCPP_ENABLE_ASSERTIONS"
+				},
+				{
+					"backtrace" : 186,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 187,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 188,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/mlir/lib/CAPI/RegisterEverything"
+				},
+				{
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/mlir/lib/CAPI/RegisterEverything"
+				},
+				{
+					"backtrace" : 190,
+					"path" : "/home/MLIR-Compiler/compiler"
+				},
+				{
+					"backtrace" : 191,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/include"
+				},
+				{
+					"backtrace" : 191,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/llvm/include"
+				},
+				{
+					"backtrace" : 192,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/mlir/include"
+				},
+				{
+					"backtrace" : 193,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/mlir/include"
+				},
+				{
+					"backtrace" : 194,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/lld/include"
+				},
+				{
+					"backtrace" : 194,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/lld/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 8,
+			"id" : "mlir-generic-headers::@86090154e9d834972c07"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "MLIRControlFlowToSPIRV::@7dae47576ef4eea07182"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "MLIRAffineToStandard::@6ab043e63615c179732d"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "MLIRAMDGPUToROCDL::@cbba608f1a127f0d66d2"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "MLIRArithAttrToLLVMConversion::@4bcfb738a22d51f722cd"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "MLIRArithToLLVM::@1bc947b1e682ba3b1337"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "MLIRArithToSPIRV::@36e9c47f0b166009ae1c"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "MLIRArmNeon2dToIntr::@7325348ad3033fecd031"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "MLIRAsyncToLLVM::@42ef0fba44fa601afa17"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "MLIRBufferizationToMemRef::@78dd32c4504985846180"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "MLIRComplexToLLVM::@3d2bc498a43d1ad033ac"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "MLIRComplexToLibm::@b3c8acba96b88bf21b55"
+		},
+		{
+			"backtrace" : 20,
+			"id" : "MLIRComplexToSPIRV::@a36184c41cd6a4d37399"
+		},
+		{
+			"backtrace" : 21,
+			"id" : "MLIRComplexToStandard::@a4e308686d6d95a9df92"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "MLIRControlFlowToLLVM::@e5ab43f4ede25c10a340"
+		},
+		{
+			"backtrace" : 23,
+			"id" : "MLIRFuncToLLVM::@5d955fb5304cd1f3d536"
+		},
+		{
+			"backtrace" : 24,
+			"id" : "MLIRFuncToSPIRV::@98a4955736acc0b3c9ec"
+		},
+		{
+			"backtrace" : 25,
+			"id" : "MLIRGPUToGPURuntimeTransforms::@617f318b09ab17a8df80"
+		},
+		{
+			"backtrace" : 26,
+			"id" : "MLIRGPUToNVVMTransforms::@0e18a9ecc8734b19e8b3"
+		},
+		{
+			"backtrace" : 27,
+			"id" : "MLIRGPUToROCDLTransforms::@73a080c8b7471ea269b6"
+		},
+		{
+			"backtrace" : 28,
+			"id" : "MLIRGPUToSPIRV::@41dfef0d14857b3df1c0"
+		},
+		{
+			"backtrace" : 29,
+			"id" : "MLIRGPUToVulkanTransforms::@8d1f24c2371d8f52a94c"
+		},
+		{
+			"backtrace" : 30,
+			"id" : "MLIRIndexToLLVM::@c351f4122a6133750961"
+		},
+		{
+			"backtrace" : 31,
+			"id" : "MLIRLinalgToLLVM::@cbbae909a3cd63fa6b5e"
+		},
+		{
+			"backtrace" : 32,
+			"id" : "MLIRLinalgToStandard::@0f3832d7b86b85752f24"
+		},
+		{
+			"backtrace" : 33,
+			"id" : "MLIRLLVMCommonConversion::@66e3826a23a10580edcc"
+		},
+		{
+			"backtrace" : 34,
+			"id" : "MLIRMathToFuncs::@afac3b08c348a213a0ab"
+		},
+		{
+			"backtrace" : 35,
+			"id" : "MLIRMathToLibm::@441f9c406b3adeaf1dc2"
+		},
+		{
+			"backtrace" : 36,
+			"id" : "MLIRMathToLLVM::@01fc546d548ac792542f"
+		},
+		{
+			"backtrace" : 37,
+			"id" : "MLIRMathToSPIRV::@20c3ad74cb23f7a2b528"
+		},
+		{
+			"backtrace" : 38,
+			"id" : "MLIRMemRefToLLVM::@acb8d0b260acd7f3ab80"
+		},
+		{
+			"backtrace" : 39,
+			"id" : "MLIRMemRefToSPIRV::@70bb1478c3c5b743bb60"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "MLIRNVGPUToNVVM::@5eb7308aba8a1f91486d"
+		},
+		{
+			"backtrace" : 41,
+			"id" : "MLIROpenACCToLLVM::@7c36db66f9c6f85bb4b5"
+		},
+		{
+			"backtrace" : 42,
+			"id" : "MLIROpenACCToSCF::@b3d9ac801b52925b2aba"
+		},
+		{
+			"backtrace" : 43,
+			"id" : "MLIROpenMPToLLVM::@4bef80946ecab278b1f1"
+		},
+		{
+			"backtrace" : 44,
+			"id" : "MLIRPDLToPDLInterp::@c08ad8372f39bd94e044"
+		},
+		{
+			"backtrace" : 45,
+			"id" : "MLIRReconcileUnrealizedCasts::@c90dc27909ebd8b2adf7"
+		},
+		{
+			"backtrace" : 46,
+			"id" : "MLIRSCFToControlFlow::@985f48b6c3340f90031b"
+		},
+		{
+			"backtrace" : 47,
+			"id" : "MLIRSCFToGPU::@dd8a251de22057e19655"
+		},
+		{
+			"backtrace" : 48,
+			"id" : "MLIRSCFToOpenMP::@3119b9313b16a8277f16"
+		},
+		{
+			"backtrace" : 49,
+			"id" : "MLIRSCFToSPIRV::@6750461222acda497698"
+		},
+		{
+			"backtrace" : 50,
+			"id" : "MLIRShapeToStandard::@abbef7ecfe3a04bd2f87"
+		},
+		{
+			"backtrace" : 51,
+			"id" : "MLIRSPIRVToLLVM::@f367847471a71422f66d"
+		},
+		{
+			"backtrace" : 52,
+			"id" : "MLIRTensorToLinalg::@c9ab73a2545aa81ae0e5"
+		},
+		{
+			"backtrace" : 53,
+			"id" : "MLIRTensorToSPIRV::@c69e561754fb704ce360"
+		},
+		{
+			"backtrace" : 54,
+			"id" : "MLIRTosaToArith::@81786785eae62c12c6fa"
+		},
+		{
+			"backtrace" : 55,
+			"id" : "MLIRTosaToLinalg::@c520658114c7087589f2"
+		},
+		{
+			"backtrace" : 56,
+			"id" : "MLIRTosaToSCF::@dcbb1ad208e27453924c"
+		},
+		{
+			"backtrace" : 57,
+			"id" : "MLIRTosaToTensor::@deb640afc91b398fafe3"
+		},
+		{
+			"backtrace" : 58,
+			"id" : "MLIRVectorToLLVM::@155dc1a719d3d1389566"
+		},
+		{
+			"backtrace" : 59,
+			"id" : "MLIRVectorToGPU::@c743b3178db9b215f913"
+		},
+		{
+			"backtrace" : 60,
+			"id" : "MLIRVectorToSCF::@5e0dc3a4d28483a33f3c"
+		},
+		{
+			"backtrace" : 61,
+			"id" : "MLIRVectorToSPIRV::@1897fb8f65b851d3380d"
+		},
+		{
+			"backtrace" : 62,
+			"id" : "MLIRAffineAnalysis::@8bdd393e50da3a0400a3"
+		},
+		{
+			"backtrace" : 63,
+			"id" : "MLIRAffineDialect::@be010fe0d42eb7f243a4"
+		},
+		{
+			"backtrace" : 64,
+			"id" : "MLIRAffineTransforms::@86608dde585f502a3bf6"
+		},
+		{
+			"backtrace" : 65,
+			"id" : "MLIRAffineTransformOps::@a5ba83a9f347dc9aa2be"
+		},
+		{
+			"backtrace" : 66,
+			"id" : "MLIRAffineUtils::@635a347097e33cf7487d"
+		},
+		{
+			"backtrace" : 67,
+			"id" : "MLIRAMDGPUDialect::@b0ce0ccfaad50a5eb07c"
+		},
+		{
+			"backtrace" : 68,
+			"id" : "MLIRArithDialect::@6d8f5691dcc917c58fb3"
+		},
+		{
+			"backtrace" : 69,
+			"id" : "MLIRArithValueBoundsOpInterfaceImpl::@6d8f5691dcc917c58fb3"
+		},
+		{
+			"backtrace" : 70,
+			"id" : "MLIRArithTransforms::@21385d688fde07a6c5cb"
+		},
+		{
+			"backtrace" : 71,
+			"id" : "MLIRArithUtils::@87e424cf88f23b7a6a99"
+		},
+		{
+			"backtrace" : 72,
+			"id" : "MLIRArmNeonDialect::@51e2aaf070fdb60586da"
+		},
+		{
+			"backtrace" : 73,
+			"id" : "MLIRArmSVEDialect::@3cc50b065c484f4b670a"
+		},
+		{
+			"backtrace" : 74,
+			"id" : "MLIRArmSVETransforms::@176da618ec39d3268854"
+		},
+		{
+			"backtrace" : 75,
+			"id" : "MLIRAsyncDialect::@1a5346ff64e6d8ba50eb"
+		},
+		{
+			"backtrace" : 76,
+			"id" : "MLIRAsyncTransforms::@ddd0a4f1db25cbf9b1be"
+		},
+		{
+			"backtrace" : 77,
+			"id" : "MLIRAMXDialect::@678f0b6d379803be0597"
+		},
+		{
+			"backtrace" : 78,
+			"id" : "MLIRAMXTransforms::@29c0ac27c1483b3c108e"
+		},
+		{
+			"backtrace" : 79,
+			"id" : "MLIRBufferizationDialect::@a3f424e066a9e853dcd2"
+		},
+		{
+			"backtrace" : 80,
+			"id" : "MLIRBufferizationTransformOps::@b4e24892d5e560087819"
+		},
+		{
+			"backtrace" : 81,
+			"id" : "MLIRBufferizationTransforms::@e8b3b93d0aa842b89481"
+		},
+		{
+			"backtrace" : 82,
+			"id" : "MLIRComplexDialect::@dd87d802eebec44676e5"
+		},
+		{
+			"backtrace" : 83,
+			"id" : "MLIRControlFlowDialect::@89bbe1201abf23349d88"
+		},
+		{
+			"backtrace" : 84,
+			"id" : "MLIRDLTIDialect::@4f1fec80d19b1bd3a45f"
+		},
+		{
+			"backtrace" : 85,
+			"id" : "MLIREmitCDialect::@659e2bb4e9dcadd5a5e3"
+		},
+		{
+			"backtrace" : 86,
+			"id" : "MLIRFuncDialect::@87b6b95a1eae24e5185b"
+		},
+		{
+			"backtrace" : 87,
+			"id" : "MLIRFuncTransforms::@97ef59c2a57ed38301b5"
+		},
+		{
+			"backtrace" : 88,
+			"id" : "MLIRGPUOps::@e0e468725dba94435ada"
+		},
+		{
+			"backtrace" : 89,
+			"id" : "MLIRGPUTransforms::@e0e468725dba94435ada"
+		},
+		{
+			"backtrace" : 90,
+			"id" : "MLIRGPUTransformOps::@59fa5268da3661f5c7fd"
+		},
+		{
+			"backtrace" : 91,
+			"id" : "MLIRIndexDialect::@ce3f974bad55689403a2"
+		},
+		{
+			"backtrace" : 92,
+			"id" : "MLIRIRDL::@e7dc8d9cf6c6eb9acd23"
+		},
+		{
+			"backtrace" : 93,
+			"id" : "MLIRLinalgDialect::@c2f49fdb4ae0973049cd"
+		},
+		{
+			"backtrace" : 94,
+			"id" : "MLIRLinalgTransformOps::@64ce800cf9e5fd05fa8e"
+		},
+		{
+			"backtrace" : 95,
+			"id" : "MLIRLinalgTransforms::@db68f4a2cb79cff4fd5d"
+		},
+		{
+			"backtrace" : 96,
+			"id" : "MLIRLinalgUtils::@522086dd35b77005c523"
+		},
+		{
+			"backtrace" : 97,
+			"id" : "MLIRLLVMDialect::@cd96239ae0f9ff0de6d9"
+		},
+		{
+			"backtrace" : 98,
+			"id" : "MLIRNVVMDialect::@cd96239ae0f9ff0de6d9"
+		},
+		{
+			"backtrace" : 99,
+			"id" : "MLIRROCDLDialect::@cd96239ae0f9ff0de6d9"
+		},
+		{
+			"backtrace" : 100,
+			"id" : "MLIRLLVMIRTransforms::@aa413dd639b1c75dd0ce"
+		},
+		{
+			"backtrace" : 101,
+			"id" : "MLIRMathDialect::@e86ebf8a3333117b25b6"
+		},
+		{
+			"backtrace" : 102,
+			"id" : "MLIRMathTransforms::@7d93f7d218a30e786503"
+		},
+		{
+			"backtrace" : 103,
+			"id" : "MLIRMemRefDialect::@1135ab6d1113482cc217"
+		},
+		{
+			"backtrace" : 104,
+			"id" : "MLIRMemRefTransformOps::@1638e442c6c2bada4fdd"
+		},
+		{
+			"backtrace" : 105,
+			"id" : "MLIRMemRefTransforms::@ed930ae3d906000b1cac"
+		},
+		{
+			"backtrace" : 106,
+			"id" : "MLIRMLProgramDialect::@4a1258ee66dbd0bfbeaa"
+		},
+		{
+			"backtrace" : 107,
+			"id" : "MLIRNVGPUDialect::@dc868d449979d83e3fe8"
+		},
+		{
+			"backtrace" : 108,
+			"id" : "MLIRNVGPUUtils::@795b322400bffdb87631"
+		},
+		{
+			"backtrace" : 109,
+			"id" : "MLIRNVGPUTransforms::@97caa96dde6aeba2a5d3"
+		},
+		{
+			"backtrace" : 110,
+			"id" : "MLIROpenACCDialect::@3374b45f351f83636301"
+		},
+		{
+			"backtrace" : 111,
+			"id" : "MLIROpenMPDialect::@370beca20ddf29f2650e"
+		},
+		{
+			"backtrace" : 112,
+			"id" : "MLIRPDLDialect::@d7a7b21a97f1727e7577"
+		},
+		{
+			"backtrace" : 113,
+			"id" : "MLIRPDLInterpDialect::@c587fceb4665edcb20fe"
+		},
+		{
+			"backtrace" : 114,
+			"id" : "MLIRQuantDialect::@3ae1abe475c8b535f06e"
+		},
+		{
+			"backtrace" : 115,
+			"id" : "MLIRQuantUtils::@429a7bd6f333c0d14e9d"
+		},
+		{
+			"backtrace" : 116,
+			"id" : "MLIRSCFDialect::@058ee5b2e43a554a0639"
+		},
+		{
+			"backtrace" : 117,
+			"id" : "MLIRSCFTransformOps::@acb4da21f43e0511556b"
+		},
+		{
+			"backtrace" : 118,
+			"id" : "MLIRSCFTransforms::@42a2ba0d8a1496dd3327"
+		},
+		{
+			"backtrace" : 119,
+			"id" : "MLIRSCFUtils::@ac25dba5fb754daa8652"
+		},
+		{
+			"backtrace" : 120,
+			"id" : "MLIRShapeDialect::@0dbbaf8df4f911c6d61e"
+		},
+		{
+			"backtrace" : 121,
+			"id" : "MLIRShapeOpsTransforms::@50b484e088ad49d5aab9"
+		},
+		{
+			"backtrace" : 122,
+			"id" : "MLIRSparseTensorDialect::@b7aa8f81677e1832a3de"
+		},
+		{
+			"backtrace" : 123,
+			"id" : "MLIRSparseTensorTransforms::@9ff4203cadcfb6634eb3"
+		},
+		{
+			"backtrace" : 124,
+			"id" : "MLIRSparseTensorPipelines::@4b5fcfc2d283d1db51e1"
+		},
+		{
+			"backtrace" : 125,
+			"id" : "MLIRSparseTensorUtils::@305da3a20b5797b04a38"
+		},
+		{
+			"backtrace" : 126,
+			"id" : "MLIRSPIRVDialect::@03d9edd341b07fcd0613"
+		},
+		{
+			"backtrace" : 127,
+			"id" : "MLIRSPIRVModuleCombiner::@6471c5ad9e3133ca3827"
+		},
+		{
+			"backtrace" : 128,
+			"id" : "MLIRSPIRVConversion::@4ebba676eaafb6027e28"
+		},
+		{
+			"backtrace" : 129,
+			"id" : "MLIRSPIRVTransforms::@4ebba676eaafb6027e28"
+		},
+		{
+			"backtrace" : 130,
+			"id" : "MLIRSPIRVUtils::@01b48c03e8e0850b5b30"
+		},
+		{
+			"backtrace" : 131,
+			"id" : "MLIRTensorDialect::@02d00658dc60d223f48c"
+		},
+		{
+			"backtrace" : 132,
+			"id" : "MLIRTensorInferTypeOpInterfaceImpl::@02d00658dc60d223f48c"
+		},
+		{
+			"backtrace" : 133,
+			"id" : "MLIRTensorTilingInterfaceImpl::@02d00658dc60d223f48c"
+		},
+		{
+			"backtrace" : 134,
+			"id" : "MLIRTensorTransforms::@674c16ffef35b1692f3f"
+		},
+		{
+			"backtrace" : 135,
+			"id" : "MLIRTensorTransformOps::@dec623b6ea1456f6bca9"
+		},
+		{
+			"backtrace" : 136,
+			"id" : "MLIRTensorUtils::@c3d0d9b0f5de0eeb33f3"
+		},
+		{
+			"backtrace" : 137,
+			"id" : "MLIRTosaDialect::@fb90b179a527fd874b83"
+		},
+		{
+			"backtrace" : 138,
+			"id" : "MLIRTosaTransforms::@34c5ff8bc15c1e8af102"
+		},
+		{
+			"backtrace" : 139,
+			"id" : "MLIRTransformDialect::@248767e547761101d79a"
+		},
+		{
+			"backtrace" : 140,
+			"id" : "MLIRTransformDialectTransforms::@0df0b1bf004a3065cd15"
+		},
+		{
+			"backtrace" : 141,
+			"id" : "MLIRTransformDialectUtils::@fb535485bca588c9fa88"
+		},
+		{
+			"backtrace" : 142,
+			"id" : "MLIRVectorDialect::@f36dcfd0805c7097cb5b"
+		},
+		{
+			"backtrace" : 143,
+			"id" : "MLIRVectorTransforms::@4d9eb135156e61f6b75d"
+		},
+		{
+			"backtrace" : 144,
+			"id" : "MLIRVectorTransformOps::@30e2feb2538d23e1f2a1"
+		},
+		{
+			"backtrace" : 145,
+			"id" : "MLIRVectorUtils::@ebce54674cf1dadc54c6"
+		},
+		{
+			"backtrace" : 146,
+			"id" : "MLIRX86VectorDialect::@454a64769db921510885"
+		},
+		{
+			"backtrace" : 147,
+			"id" : "MLIRX86VectorTransforms::@ae5b75e3d291e3fc1875"
+		},
+		{
+			"backtrace" : 148,
+			"id" : "MLIRTargetCpp::@289a2fd216f0ac04599a"
+		},
+		{
+			"backtrace" : 149,
+			"id" : "MLIRSPIRVBinaryUtils::@caead622ba4016e31d45"
+		},
+		{
+			"backtrace" : 150,
+			"id" : "MLIRSPIRVTranslateRegistration::@caead622ba4016e31d45"
+		},
+		{
+			"backtrace" : 151,
+			"id" : "MLIRSPIRVDeserialization::@7e8381a1721713b4a65f"
+		},
+		{
+			"backtrace" : 152,
+			"id" : "MLIRSPIRVSerialization::@f403b3c01c7301c8db3d"
+		},
+		{
+			"backtrace" : 153,
+			"id" : "MLIRTargetLLVMIRExport::@92f9af5fd06f962657d0"
+		},
+		{
+			"backtrace" : 154,
+			"id" : "MLIRToLLVMIRTranslationRegistration::@92f9af5fd06f962657d0"
+		},
+		{
+			"backtrace" : 155,
+			"id" : "MLIRTargetLLVMIRImport::@92f9af5fd06f962657d0"
+		},
+		{
+			"backtrace" : 156,
+			"id" : "MLIRFromLLVMIRTranslationRegistration::@92f9af5fd06f962657d0"
+		},
+		{
+			"backtrace" : 157,
+			"id" : "MLIRArmNeonToLLVMIRTranslation::@b9cc8cf9cc3fb9e7f325"
+		},
+		{
+			"backtrace" : 158,
+			"id" : "MLIRArmSVEToLLVMIRTranslation::@f2a2b60d3ce2a3011c53"
+		},
+		{
+			"backtrace" : 159,
+			"id" : "MLIRAMXToLLVMIRTranslation::@1cca1db0964784c8009c"
+		},
+		{
+			"backtrace" : 160,
+			"id" : "MLIRBuiltinToLLVMIRTranslation::@c1bc3025febbb3ac1883"
+		},
+		{
+			"backtrace" : 161,
+			"id" : "MLIRGPUToLLVMIRTranslation::@e01f946a90617436a975"
+		},
+		{
+			"backtrace" : 162,
+			"id" : "MLIRLLVMIRToLLVMTranslation::@3d7706f7d6dfcc471823"
+		},
+		{
+			"backtrace" : 163,
+			"id" : "MLIRLLVMToLLVMIRTranslation::@3d7706f7d6dfcc471823"
+		},
+		{
+			"backtrace" : 164,
+			"id" : "MLIRNVVMToLLVMIRTranslation::@fe914d5dfbf5c4c23814"
+		},
+		{
+			"backtrace" : 165,
+			"id" : "MLIROpenACCToLLVMIRTranslation::@40fed1ef909d5c83c39c"
+		},
+		{
+			"backtrace" : 166,
+			"id" : "MLIROpenMPToLLVMIRTranslation::@1b4bfaa4b65bfdaebf57"
+		},
+		{
+			"backtrace" : 167,
+			"id" : "MLIRROCDLToLLVMIRTranslation::@7592120cd1a052ad0f21"
+		},
+		{
+			"backtrace" : 168,
+			"id" : "MLIRX86VectorToLLVMIRTranslation::@981defc5c15c7488872f"
+		},
+		{
+			"backtrace" : 169,
+			"id" : "MLIRCAPIIR::@ce425c65793baf93ebc1"
+		},
+		{
+			"backtrace" : 170,
+			"id" : "MLIRCAPITransforms::@e7e247c65a76f1dd07ba"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Object Libraries"
+	},
+	"id" : "obj.MLIRCAPIRegisterEverything::@e1ef7375b51e9847504b",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "obj.MLIRCAPIRegisterEverything",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/CAPI/RegisterEverything",
+		"source" : "third_party/llvm-project/mlir/lib/CAPI/RegisterEverything"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/mlir/lib/CAPI/RegisterEverything/RegisterEverything.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/AffineExpr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/AffineMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/BuiltinAttributes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/BuiltinTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Conversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Debug.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Diagnostics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/ExecutionEngine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/IR.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/IntegerSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Interfaces.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/RegisterEverything.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Support.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "third_party/llvm-project/mlir/include/mlir-c/Transforms.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

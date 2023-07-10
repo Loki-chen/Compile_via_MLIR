@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Dialect/EmitC",
+		"source" : "third_party/llvm-project/mlir/lib/Dialect/EmitC"
+	}
+}

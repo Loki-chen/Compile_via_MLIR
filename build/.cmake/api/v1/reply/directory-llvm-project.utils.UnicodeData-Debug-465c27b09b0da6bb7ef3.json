@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "llvm-project/utils/UnicodeData",
+		"source" : "third_party/llvm-project/llvm/utils/UnicodeData"
+	}
+}

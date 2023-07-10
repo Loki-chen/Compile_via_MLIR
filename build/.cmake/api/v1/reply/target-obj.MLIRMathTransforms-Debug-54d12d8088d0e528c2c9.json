@@ -1,0 +1,481 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "llvm-project/tools/mlir/lib/Dialect/Math/Transforms/CMakeFiles/obj.MLIRMathTransforms.dir/./AlgebraicSimplification.cpp.o"
+		},
+		{
+			"path" : "llvm-project/tools/mlir/lib/Dialect/Math/Transforms/CMakeFiles/obj.MLIRMathTransforms.dir/./ExpandPatterns.cpp.o"
+		},
+		{
+			"path" : "llvm-project/tools/mlir/lib/Dialect/Math/Transforms/CMakeFiles/obj.MLIRMathTransforms.dir/./PolynomialApproximation.cpp.o"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"llvm_add_library",
+			"add_mlir_library",
+			"add_mlir_dialect_library",
+			"add_dependencies",
+			"set_property",
+			"llvm_update_compile_flags",
+			"add_definitions",
+			"add_compile_definitions",
+			"include",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/AddLLVM.cmake",
+			"third_party/llvm-project/mlir/cmake/modules/AddMLIR.cmake",
+			"third_party/llvm-project/mlir/lib/Dialect/Math/Transforms/CMakeLists.txt",
+			"third_party/llvm-project/mlir/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/modules/HandleLLVMOptions.cmake",
+			"third_party/llvm-project/llvm/CMakeLists.txt",
+			"third_party/llvm-project/llvm/cmake/config-ix.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 582,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 303,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 519,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 538,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 553,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 522,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 83,
+				"parent" : 15
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 113,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 122,
+				"parent" : 17
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 896,
+				"parent" : 20
+			},
+			{
+				"file" : 4,
+				"parent" : 21
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 64,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 85,
+				"parent" : 22
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 861,
+				"parent" : 20
+			},
+			{
+				"file" : 6,
+				"parent" : 25
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 338,
+				"parent" : 26
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 87,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 980,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 981,
+				"parent" : 22
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 982,
+				"parent" : 22
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 130,
+				"parent" : 32
+			},
+			{
+				"command" : 10,
+				"file" : 5,
+				"line" : 1118,
+				"parent" : 20
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 164,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 165,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 534,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -fno-rtti -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -w -fdiagnostics-color -g"
+				},
+				{
+					"fragment" : " -fno-exceptions -funwind-tables -fno-rtti"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 16,
+					"define" : "GTEST_HAS_RTTI=0"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "MLIR_CUDA_CONVERSIONS_ENABLED=0"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "MLIR_ROCM_CONVERSIONS_ENABLED=0"
+				},
+				{
+					"backtrace" : 23,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_GLIBCXX_ASSERTIONS"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "_GNU_SOURCE"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_LIBCPP_ENABLE_ASSERTIONS"
+				},
+				{
+					"backtrace" : 29,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/mlir/lib/Dialect/Math/Transforms"
+				},
+				{
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/mlir/lib/Dialect/Math/Transforms"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/home/MLIR-Compiler/compiler"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/include"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/llvm/include"
+				},
+				{
+					"backtrace" : 35,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/mlir/include"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/mlir/include"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/home/MLIR-Compiler/third_party/llvm-project/lld/include"
+				},
+				{
+					"backtrace" : 37,
+					"path" : "/home/MLIR-Compiler/build/llvm-project/tools/lld/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "mlir-generic-headers::@86090154e9d834972c07"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "mlir-headers::@86090154e9d834972c07"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "MLIRArithDialect::@6d8f5691dcc917c58fb3"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "MLIRMathDialect::@e86ebf8a3333117b25b6"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "MLIRDialectUtils::@81ba9a55115f5eee939a"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "MLIRVectorDialect::@f36dcfd0805c7097cb5b"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "MLIRVectorUtils::@ebce54674cf1dadc54c6"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "MLIRX86VectorDialect::@454a64769db921510885"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "MLIRIR::@71c528a602caadfa7fad"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "MLIRPass::@833c0ec76d31dd3298b2"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "MLIRTransforms::@63e715175c1498f7d7a4"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Object Libraries"
+	},
+	"id" : "obj.MLIRMathTransforms::@7d93f7d218a30e786503",
+	"name" : "obj.MLIRMathTransforms",
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/lib/Dialect/Math/Transforms",
+		"source" : "third_party/llvm-project/mlir/lib/Dialect/Math/Transforms"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/mlir/lib/Dialect/Math/Transforms/AlgebraicSimplification.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/mlir/lib/Dialect/Math/Transforms/ExpandPatterns.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "third_party/llvm-project/mlir/lib/Dialect/Math/Transforms/PolynomialApproximation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "third_party/llvm-project/mlir/include/mlir/Dialect/Math/Transforms/Approximation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"path" : "third_party/llvm-project/mlir/include/mlir/Dialect/Math/Transforms/Passes.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

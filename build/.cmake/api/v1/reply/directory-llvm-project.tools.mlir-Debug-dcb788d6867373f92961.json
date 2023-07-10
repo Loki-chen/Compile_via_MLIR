@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/mlir/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 225,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "mlir-headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"third_party/llvm-project/mlir/include/mlir",
+				"third_party/llvm-project/mlir/include/mlir-c"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "mlir-headers",
+			"destination" : "include",
+			"paths" : 
+			[
+				"build/llvm-project/tools/mlir/include/mlir",
+				"build/llvm-project/tools/mlir/include/mlir-c"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir",
+		"source" : "third_party/llvm-project/mlir"
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"add_tablegen"
+		],
+		"files" : 
+		[
+			"third_party/llvm-project/llvm/cmake/modules/TableGen.cmake",
+			"third_party/llvm-project/mlir/tools/mlir-tblgen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "mlir-tblgen",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"llvm-project/bin/mlir-tblgen"
+			],
+			"targetId" : "mlir-tblgen::@f00ed296c5f5525f4dbe",
+			"targetIndex" : 709,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "llvm-project/tools/mlir/tools/mlir-tblgen",
+		"source" : "third_party/llvm-project/mlir/tools/mlir-tblgen"
+	}
+}
