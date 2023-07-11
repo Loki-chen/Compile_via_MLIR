@@ -8,8 +8,9 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}//build/tools/nisl-compile",
-            "args": [],
+            "program": "${workspaceFolder}/build/tools/nisl-compile",
+            "args": ["/home/MLIR-Compiler/tests/tosa-mlir/tosa-add.mlir",
+                      "--mlir-print-ir-after-all"],
             "cwd": "${workspaceFolder}"
         }
     ]

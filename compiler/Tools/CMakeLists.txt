@@ -9,9 +9,11 @@ nisl_cc_library(
   SRCS
     "nisl_compile_lib.cc"
   DEPS
+  # LLVM support
     LLVMSupport
     LLVMTargetParser
     MLIRBuiltinToLLVMIRTranslation
+    # MLIR Support
     MLIRIR
     MLIRParser
     MLIRPass
@@ -26,9 +28,13 @@ nisl_cc_library(
     MLIRShapeOpsTransforms
     MLIRTensorDialect
     MLIRControlFlowDialect
-
+    # Dialects and Passes init
     init_passes_and_dialects
     init_llvmir_translations
+
+    #Pipelines dependence
+    Pipelines
+
 
   INCLUDES
     "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/.>"
@@ -59,6 +65,7 @@ nisl_cc_library(
     "init_mlir_dialects.h"
     "init_mlir_passes.h"
   DEPS
+  # Dialect DEPS
     MLIRDialect
     MLIRPass
     MLIRIR
@@ -98,23 +105,6 @@ nisl_cc_library(
     MLIRTransforms
     MLIRVectorDialect 
     MLIRShapeOpsTransforms # Shape Dialect transforms
-
-    # TOSA
-    MLIRArithDialect
-    MLIRFuncDialect
-    MLIRIR
-    MLIRLinalgDialect
-    MLIRPass
-    MLIRSCFToControlFlow
-    MLIRTensorDialect
-    MLIRTosaDialect
-    MLIRTosaToArith
-    MLIRTosaToLinalg
-    MLIRTosaToSCF
-    MLIRTosaToTensor
-    
-
-    
     MLIRAsyncDialect
     MLIRAsyncTransforms
 

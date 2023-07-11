@@ -34,6 +34,7 @@
 
 
 #include "mlir/Conversion/TosaToArith/TosaToArith.h"
+#include "mlir/Conversion/TosaToLinalg/TosaToLinalg.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/Shape/Transforms/Passes.h"
 #include "mlir/Dialect/Tosa/Transforms/Passes.h"
@@ -405,15 +406,13 @@ bool Invocation::parseSource(Source &source){
 
 
 bool Invocation::runPipeline(enum compilerPipeline pipeline){
-std::cout<<"nisl-compile-runMain-runPipepline!"<<std::endl;
-      session.context.allowsUnregisteredDialects();
-
-      passManager.addPass(tosa::createTosaToArith());
+  std::cout<<"nisl-compile-runMain-runPipepline!\n"<<std::endl;
+  session.context.allowsUnregisteredDialects();
 
   switch (pipeline) {
     case NISL_COMPILER_PIPELINE_STD:{
       /*  nisl-compile Pipeline  */
-      // buildTOSATransformePassPipeline(passManager);
+      bulidNISLTransformPassPipeline(passManager);
 
       break;
     }
@@ -430,7 +429,7 @@ std::cout<<"nisl-compile-runMain-runPipepline!"<<std::endl;
     return false;
   }
   passManager.dump();
-  parsedModule.get()->dump();
+  // parsedModule.get()->dump();
   return true;
 }
 

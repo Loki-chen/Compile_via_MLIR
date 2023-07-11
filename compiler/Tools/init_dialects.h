@@ -16,17 +16,17 @@
 #include "init_mlir_dialects.h"
 #include "mlir/Dialect/Tosa/IR/TosaOps.h"
 
-
-
-// #include "mlir/InitAllDialects.h"
 namespace mlir {
 namespace compiler {
 
 inline void registerAllDialects(DialectRegistry &registry) {
     registerMlirDialects(registry);
+    
+    // register input dialect: TOSA
+    registry.insert<tosa::TosaDialect>();
 
-    // registry.insert<tosa::TosaDialect>();
-    // mlir::registerAllDialects(registry);
+    
+
 }
 
 }  // namespace compiler

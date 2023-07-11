@@ -7,27 +7,14 @@ namespace mlir {
 
 namespace compiler {
 
-void buildTOSAConversionPassPipeline(OpPassManager &passManager){
-        
-        std::cout<<"bulid pipeline!!!";
-    };
 
-
-
-
-void registerTOSATransformPassPipeline(OpPassManager &passManager) {
-
-        buildTOSAConversionPassPipeline(passManager);
-    
-}
+void bulidNISLTransformPassPipeline(OpPassManager &passManager);
 
 
 // Registration hooks.
-void registerTOSATransformPass(OpPassManager &passManager){
-    registerTOSATransformPassPipeline(passManager);
-
-        
-    }
+void registerNISLTransformPipeline();
+ 
+    
 }  // namespace compiler
 }  // namespace mlir
 

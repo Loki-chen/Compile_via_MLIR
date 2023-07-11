@@ -6,11 +6,14 @@ nisl_cc_library(
   SRCS
     "Pipelines.cpp"
   DEPS
-    ${IREE_INPUT_DEPS}
+
 
     LLVMSupport
     MLIRIR
     MLIRPass
     MLIRSupport
+
+    # TOSA Conversion
+    TOSA
   PUBLIC
 )
