@@ -12,12 +12,14 @@
 #include "mlir/Conversion/TosaToSCF/TosaToSCF.h"
 #include "mlir/Conversion/TosaToTensor/TosaToTensor.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
+#include "mlir/Dialect/Linalg/Passes.h"
 #include "mlir/Dialect/Tosa/Transforms/Passes.h"
+#include "mlir/Pass/Pass.h"
 #include "mlir/Pass/PassOptions.h"
 #include "mlir/Pass/PassRegistry.h"
 #include "mlir/Pass/PassManager.h"
 #include "mlir/Transforms/Passes.h"
-
+#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 namespace mlir {
 namespace compiler {
 
@@ -36,13 +38,10 @@ void buildTOSAConversionPassPipeline(OpPassManager &passManager) {
 
   passManager.addNestedPass<func::FuncOp>(mlir::createCanonicalizerPass());
 
+  passManager.addNestedPass<func::FuncOp>(tosa::createTosaToSCF());
 
   passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalgNamed());
   passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalg());
-
-  //----------------------------------------------------------------------------
-  // Entry dialect cleanup
-  //----------------------------------------------------------------------------
 
 }
 
@@ -58,6 +57,7 @@ void registerTOSAConversionPassPipeline() {
 
 
 void registerTOSAConversionPasses() {
+
 
   // Pipelines.
   registerTOSAConversionPassPipeline();
