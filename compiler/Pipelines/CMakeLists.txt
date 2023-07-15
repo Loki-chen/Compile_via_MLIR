@@ -15,5 +15,7 @@ nisl_cc_library(
 
     # TOSA Conversion
     TOSA
+    # Warp entry point
+    WarpEntryPoint
   PUBLIC
 )

@@ -4,7 +4,7 @@
 // See https://llvm.org/LICENSE.txt for license information.
 // SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 
-#include "InputConversion/TOSA/Passes.h"
+#include "Conversion/TOSA/Passes.h"
 
 
 #include "mlir/Conversion/TosaToArith/TosaToArith.h"
@@ -20,11 +20,12 @@
 #include "mlir/Pass/PassManager.h"
 #include "mlir/Transforms/Passes.h"
 #include "mlir/Dialect/GPU/IR/GPUDialect.h"
+#include <iostream>
 namespace mlir {
 namespace compiler {
-
-// Prepare TOSA for use as an input to the Flow dialect.
-void buildTOSAConversionPassPipeline(OpPassManager &passManager) {
+namespace InputTosa{
+// Prepare InputTpsa for use as an input to the Flow dialect.
+void buildTransformPassPipeline(OpPassManager &passManager) {
   // Currently we don't handle SCF ops well and have to convert them all to CFG.
   // In the future it would be nice if we could have all of flow be both scf
   // and cfg compatible.
@@ -43,25 +44,20 @@ void buildTOSAConversionPassPipeline(OpPassManager &passManager) {
   passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalgNamed());
   passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalg());
 
+
+  passManager.addPass(mlir::createCanonicalizerPass());
 }
 
 void registerTOSAConversionPassPipeline() {
-  PassPipelineRegistration<> tosa(
+  PassPipelineRegistration<> transformPassPipeline(
       "nisl-tosa-input-transformation-pipeline",
       "Runs the TOSA NISL flow dialect transformation pipeline",
       [](OpPassManager &passManager) {
-        buildTOSAConversionPassPipeline(passManager);
+        buildTransformPassPipeline(passManager);
       });
 }
 
 
-
-void registerTOSAConversionPasses() {
-
-
-  // Pipelines.
-  registerTOSAConversionPassPipeline();
-}
-
+}  // TOSA
 }  // namespace compiler
 }  // namespace mlir

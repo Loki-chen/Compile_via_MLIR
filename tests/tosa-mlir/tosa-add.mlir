@@ -1,7 +1,6 @@
 module {
-  func.func @add(%arg0: tensor<3xi32>) -> tensor<3xi32>  {
-    %1 = "tosa.const"() {value = dense<[1, 2, 4]> : tensor<3xi32>} : () -> tensor<3xi32>
-    %2 = "tosa.add"(%arg0, %1) : (tensor<3xi32>, tensor<3xi32>) -> tensor<3xi32>
+  func.func @add(%arg0: tensor<3xi32>, %arg1: tensor<3xi32>) -> tensor<3xi32>  {
+    %2 = "tosa.add"(%arg0, %arg1) : (tensor<3xi32>, tensor<3xi32>) -> tensor<3xi32>
     return %2 : tensor<3xi32>
   }
 }
@@ -14,7 +13,6 @@ module {
 //      return  %2: tensor<1x45x40x28xf32>
 //    }
 //    }
-
 
 // module{
 //   func.func@matmul() -> tensor<2x2x1xi32>{

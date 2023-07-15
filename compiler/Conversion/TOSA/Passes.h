@@ -7,32 +7,36 @@
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/IR/BuiltinOps.h"
 #include "mlir/Pass/Pass.h"
-
+#include "mlir/Dialect/Tosa/Transforms/Passes.h"
+#include "mlir/Conversion/Passes.h"
 namespace mlir {
 namespace compiler {
+namespace InputTosa {
+
 
 //===----------------------------------------------------------------------===//
 // Pipelines
 //===----------------------------------------------------------------------===//
 
 // Performs input legalization for specific combination of input dialects.
-void buildTOSAConversionPassPipeline(OpPassManager &passManager);
+void buildTransformPassPipeline(OpPassManager &passManager);
 
 void registerTOSAConversionPassPipeline();
-
-
-// Verifies a module being input to the core compiler pipeline only contains
-// IR structures that are supported at that level.
-std::unique_ptr<OperationPass<ModuleOp>>
-createVerifyCompilerTOSAInputLegality();
-
 
 //===----------------------------------------------------------------------===//
 // Register all Passes
 //===----------------------------------------------------------------------===//
 
-void registerTOSAConversionPasses();
+inline void registerPasses(){
+  //TOSA
+  registerTosaToArithPass();
+  registerTosaToLinalgPass();
+  registerTosaToTensorPass();
 
+  // Pipelines.
+  registerTOSAConversionPassPipeline();
+}
+}   // InputTosa
 }  // namespace compiler
 }  // namespace mlir
 

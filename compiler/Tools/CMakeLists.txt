@@ -65,15 +65,12 @@ nisl_cc_library(
     "init_mlir_dialects.h"
     "init_mlir_passes.h"
   DEPS
-  # Dialect DEPS
     MLIRDialect
     MLIRPass
     MLIRIR
     MLIRControlFlowToSPIRV
     MLIRReconcileUnrealizedCasts
     MLIRTransformDialect
-
-
 
     MLIRAffineDialect
     MLIRAffineTransforms
@@ -121,6 +118,8 @@ nisl_cc_library(
   DEPS
 
     init_mlir_passes_and_dialects
+    WarpEntryPoint
+
     # iree::compiler::Codegen::Codegen
     # iree::compiler::Dialect::HAL::Conversion::Passes
   PUBLIC

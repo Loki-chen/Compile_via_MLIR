@@ -429,7 +429,7 @@ bool Invocation::runPipeline(enum compilerPipeline pipeline){
     return false;
   }
   passManager.dump();
-  // parsedModule.get()->dump();
+  parsedModule.get()->dump();
   return true;
 }
 

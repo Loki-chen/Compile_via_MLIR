@@ -11,9 +11,8 @@
 
 
 #include "init_mlir_passes.h"
-// #include "mlir/InitAllPasses.h"
-
-
+#include "Conversion/TOSA/Passes.h"
+#include "Conversion/WarpEntryPoint/Passes.h"
 
 namespace mlir {
 namespace compiler {
@@ -21,7 +20,12 @@ namespace compiler {
 // Registers core passes and other important passes to the global registry.
 inline void registerAllPasses() {
     registerMlirPasses();
-    // mlir::registerAllPasses();
+    // init tosa pass
+    InputTosa::registerPasses();
+    // init warpentryPoint pass
+    WarpEntryPoint::registerPasses();
+
+
 }
 
 }  // namespace compiler

@@ -1,5 +1,6 @@
 #include "Pipelines/Pipelines.h"
-#include "InputConversion/TOSA/Passes.h"
+#include "Conversion/TOSA/Passes.h"
+#include "Conversion/WarpEntryPoint/Passes.h"
  //===----------------------------------------------------------------------===//
 // Pipelines
 //===----------------------------------------------------------------------===//
@@ -14,11 +15,22 @@ namespace compiler {
     
     void bulidNISLTransformPassPipeline(OpPassManager &passManager){
         // TOSA Conversion Pipeline
-        buildTOSAConversionPassPipeline(passManager);
+        InputTosa::buildTransformPassPipeline(passManager);
         
-
-        // 
+        // func.func ---gpu.func
+        WarpEntryPoint::buildTransformPassPipeline(passManager);
+    
+    
+    
+    
     }
+
+
+
+
+
+
+
 
     void registerNISLTransformPipeline(){
       PassPipelineRegistration<> transformPassPipeline(

@@ -25,8 +25,6 @@
 #include "mlir/Transforms/Passes.h"
 
 
-#include "mlir/Dialect/Tosa/Transforms/Passes.h"
-
 
 namespace mlir {
 
@@ -82,12 +80,6 @@ inline void registerMlirPasses() {
   registerConvertGPUToSPIRVPass();
   registerConvertControlFlowToSPIRVPass();   //  error  undefined reference to
   registerConvertFuncToSPIRVPass();
-
-  //TOSA
-
-  registerTosaToArithPass();
-  registerTosaToLinalgPass();
-  registerTosaToTensorPass();
 }
 
 }  // namespace mlir
