@@ -5,6 +5,22 @@ module {
   }
 }
 
+
+// module {
+//   func.func @add(%arg0: tensor<3xi32>, %arg1: tensor<3xi32>) -> tensor<3xi32>  {
+//     %2 = "tosa.add"(%arg0, %arg1) : (tensor<3xi32>, tensor<3xi32>) -> tensor<3xi32>
+//     return %2 : tensor<3xi32>
+//   }
+// func.func @bar() {
+//   %0 = arith.constant %arg0 : tensor<3xi32>
+//   %1 = arith.constant %arg1 : tensor<3xi32>
+//   %2:2 = call @add(%0, %1) : tensor<3xi32> -> tensor<3xi32>
+
+// }
+// }
+
+
+
 //  module{
 //      func.func @main(%input: tensor<1x49x42x27xf32>, %weights: tensor<28x3x3x27xf32>, %bias: tensor<28xf32>) -> tensor<1x45x40x28xf32>{
 //       %0 = "tosa.conv2d"(%input, %weights, %bias) {pad = array<i64: 0, 0, 0, 0>, stride = array<i64: 1, 1>, dilation = array<i64: 2, 1>} : (tensor<1x49x42x27xf32>, tensor<28x3x3x27xf32>, tensor<28xf32>)  -> (tensor<1x45x40x28xf32>)

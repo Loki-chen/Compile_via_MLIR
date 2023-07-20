@@ -13,15 +13,13 @@ namespace WarpEntryPoint {
 
     void registerTransformPassPipeline();
 
-    // Converts streamable ops in dialects into their nisl dialect forms.
-    std::unique_ptr<OperationPass<ModuleOp>> createWrapEntryPointsOpsPass();
 
-    // Wraps all entry points in a function
-    // std::unique_ptr<OperationPass<ModuleOp>> createWrapEntryPointsPass();
+
+
 
     inline void registerPasses(){
         //regist pass
-        createWrapEntryPointsOpsPass();
+
         // createWrapEntryPointsPass();
         //regist pipeline
         registerTransformPassPipeline();

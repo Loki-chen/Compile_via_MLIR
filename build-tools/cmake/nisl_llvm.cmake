@@ -44,6 +44,7 @@ macro(nisl_llvm_configure_bundled)
   if(NOT EXISTS "${MLIR_CMAKE_DIR}/AddMLIR.cmake")
     message(SEND_ERROR "Could not find AddMLIR.cmake in ${MLIR_CMAKE_DIR}: LLVM sub-projects may have changed their layout. See the mlir_cmake_builddir variable in mlir/cmake/modules/CMakeLists.txt")
   endif()
+  
   list(APPEND CMAKE_MODULE_PATH "${MLIR_CMAKE_DIR}")
 
   

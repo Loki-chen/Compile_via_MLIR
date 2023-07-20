@@ -17,7 +17,7 @@ namespace compiler {
         // TOSA Conversion Pipeline
         InputTosa::buildTransformPassPipeline(passManager);
         
-        // func.func ---gpu.func
+        // func.func ---fun.func call
         WarpEntryPoint::buildTransformPassPipeline(passManager);
     
     

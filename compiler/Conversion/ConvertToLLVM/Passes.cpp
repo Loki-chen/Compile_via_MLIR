@@ -2,11 +2,11 @@
 
 
 #include <memory>
-#include "Conversion/WarpEntryPoint/Passes.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Pass/PassOptions.h"
 #include "mlir/Pass/PassRegistry.h"
 #include "mlir/Transforms/Passes.h"
+
 
 namespace mlir {
 namespace compiler {
@@ -15,9 +15,9 @@ namespace WarpEntryPoint {
 
     void buildTransformPassPipeline(OpPassManager &passManager){
         
-        passManager.addPass(createConvertStreamableOpsPass());
+        // passManager.addPass();
         // passManager.addPass(createWrapEntryPointsPass());
-
+    
     }
 
 

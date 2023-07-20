@@ -30,21 +30,12 @@ void buildTransformPassPipeline(OpPassManager &passManager) {
   // In the future it would be nice if we could have all of flow be both scf
   // and cfg compatible.
   passManager.addNestedPass<func::FuncOp>(tosa::createTosaMakeBroadcastablePass());
-
-  
   passManager.addPass(tosa::createTosaToArith());
-
-
   passManager.addNestedPass<func::FuncOp>(tosa::createTosaToTensor());
-
   passManager.addNestedPass<func::FuncOp>(mlir::createCanonicalizerPass());
-
   passManager.addNestedPass<func::FuncOp>(tosa::createTosaToSCF());
-
   passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalgNamed());
   passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalg());
-
-
   passManager.addPass(mlir::createCanonicalizerPass());
 }
 

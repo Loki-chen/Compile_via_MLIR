@@ -87,7 +87,6 @@ struct GlobalInit {
 GlobalInit::GlobalInit() {
   // Global/static registrations.
   mlir::compiler::registerAllPasses();
-
   mlir::compiler::registerAllDialects(registry);
   mlir::compiler::registerLLVMIRTranslactions(registry);
 }
