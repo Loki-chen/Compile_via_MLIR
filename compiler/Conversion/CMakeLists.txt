@@ -1,3 +1,3 @@
 
 add_subdirectory(TOSA)
-add_subdirectory(ConvertToLLVM)
+add_subdirectory(ConvertToMlirLLVM)

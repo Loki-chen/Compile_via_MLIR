@@ -23,12 +23,19 @@ void buildTransformPassPipeline(OpPassManager &passManager);
 
 void registerTOSAConversionPassPipeline();
 
+
+
+/// A pass to eliminate tensor.empty ops that could turn into allocations
+/// during bufferization.
+std::unique_ptr<OperationPass<ModuleOp>> createEliminateEmptyTensorsPass();
+
+
 //===----------------------------------------------------------------------===//
 // Register all Passes
 //===----------------------------------------------------------------------===//
 
 inline void registerPasses(){
-  //TOSA
+  //register pass
   registerTosaToArithPass();
   registerTosaToLinalgPass();
   registerTosaToTensorPass();

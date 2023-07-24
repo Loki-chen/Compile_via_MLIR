@@ -19,24 +19,45 @@
 #include "mlir/Pass/PassRegistry.h"
 #include "mlir/Pass/PassManager.h"
 #include "mlir/Transforms/Passes.h"
-#include "mlir/Dialect/GPU/IR/GPUDialect.h"
 #include <iostream>
+
+
+
+
+#include "llvm/MC/TargetRegistry.h"
+
+#include "llvm/Support/CommandLine.h"
+static llvm::cl::opt<bool> Target(
+    "nisl-target",
+    llvm::cl::desc(
+        "Enables microkernel lowering for llvmcpu backend (experimental)"),
+    llvm::cl::init(false));
 namespace mlir {
 namespace compiler {
 namespace InputTosa{
-// Prepare InputTpsa for use as an input to the Flow dialect.
+// Prepare InputTosa for use as an input to the Flow dialect.
 void buildTransformPassPipeline(OpPassManager &passManager) {
   // Currently we don't handle SCF ops well and have to convert them all to CFG.
   // In the future it would be nice if we could have all of flow be both scf
   // and cfg compatible.
-  passManager.addNestedPass<func::FuncOp>(tosa::createTosaMakeBroadcastablePass());
-  passManager.addPass(tosa::createTosaToArith());
-  passManager.addNestedPass<func::FuncOp>(tosa::createTosaToTensor());
-  passManager.addNestedPass<func::FuncOp>(mlir::createCanonicalizerPass());
-  passManager.addNestedPass<func::FuncOp>(tosa::createTosaToSCF());
-  passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalgNamed());
-  passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalg());
-  passManager.addPass(mlir::createCanonicalizerPass());
+    passManager.addNestedPass<func::FuncOp>(tosa::createTosaToSCF());
+    passManager.addPass(mlir::createCanonicalizerPass());
+
+    passManager.addNestedPass<func::FuncOp>(tosa::createTosaMakeBroadcastablePass());
+    passManager.addPass(tosa::createTosaToArith());
+    passManager.addNestedPass<func::FuncOp>(tosa::createTosaToTensor());
+    passManager.addNestedPass<func::FuncOp>(mlir::createCanonicalizerPass());
+    passManager.addNestedPass<func::FuncOp>(tosa::createTosaToSCF());
+    passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalgNamed());
+    passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalg());
+
+    // eliminate-empty-tensors ---TODO
+
+
+    passManager.addNestedPass<func::FuncOp>(tosa::createTosaLayerwiseConstantFoldPass());
+
+    passManager.addNestedPass<func::FuncOp>(tosa::createTosaValidationPass());
+    passManager.addPass(mlir::createCanonicalizerPass());
 }
 
 void registerTOSAConversionPassPipeline() {

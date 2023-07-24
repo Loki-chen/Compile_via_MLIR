@@ -12,7 +12,8 @@
 
 #include "init_mlir_passes.h"
 #include "Conversion/TOSA/Passes.h"
-#include "Conversion/WarpEntryPoint/Passes.h"
+#include "Conversion/ConvertToMlirLLVM/Passes.h"
+#include "CodeGen/CPU/Passes.h"
 
 namespace mlir {
 namespace compiler {
@@ -23,8 +24,9 @@ inline void registerAllPasses() {
     // init tosa pass
     InputTosa::registerPasses();
     // init warpentryPoint pass
-    WarpEntryPoint::registerPasses();
-
+    ConvertToMlirLLVM::registerPasses();
+    // LLVM CPU CodeGen pass
+    CPUCodeGen::registerPasses();
 
 }
 

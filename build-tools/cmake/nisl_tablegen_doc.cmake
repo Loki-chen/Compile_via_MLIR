@@ -46,8 +46,8 @@ function(nisl_tablegen_doc)
 
   set(_INCLUDE_DIRS
     "${MLIR_INCLUDE_DIRS}"
-    "${NISL_SOURCE_DIR}/compiler/src"
-    "${NISL_BINARY_DIR}/compiler/src"
+    "${NISL_SOURCE_DIR}/compiler/"
+    "${NISL_BINARY_DIR}/compiler/"
   )
   list(APPEND _INCLUDE_DIRS ${CMAKE_CURRENT_SOURCE_DIR})
   list(TRANSFORM _INCLUDE_DIRS PREPEND "-I")

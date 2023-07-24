@@ -27,8 +27,8 @@ function(nisl_tablegen_library)
   set(LLVM_TARGET_DEFINITIONS ${_RULE_TD_FILE})
   set(_INCLUDE_DIRS
     "${MLIR_INCLUDE_DIRS}"
-    "${NISL_SOURCE_DIR}/compiler/src"
-    "${NISL_BINARY_DIR}/compiler/src"
+    "${NISL_SOURCE_DIR}/compiler"
+    "${NISL_BINARY_DIR}/compiler"
   )
   if(DEFINED NISL_COMPILER_TABLEGEN_INCLUDE_DIRS)
     list(APPEND _INCLUDE_DIRS ${NISL_COMPILER_TABLEGEN_INCLUDE_DIRS})
@@ -61,5 +61,4 @@ function(nisl_tablegen_library)
  
    add_library(${_NAME} INTERFACE)
    add_dependencies(${_NAME} ${_NAME}_target)
-  add_library(${_RULE_NAME} ALIAS ${_NAME})
 endfunction(nisl_tablegen_library)

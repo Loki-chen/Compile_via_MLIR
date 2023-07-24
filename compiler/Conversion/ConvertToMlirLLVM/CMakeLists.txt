@@ -1,0 +1,79 @@
+nisl_add_all_subdirs()
+
+nisl_cc_library(
+  NAME
+    ConvertToMlirLLVM
+  HDRS
+    "Passes.h"
+  SRCS
+    "Passes.cpp"
+  DEPS
+    LLVMSupport
+    MLIRAffineUtils
+    MLIRFuncDialect
+    MLIRIR
+    MLIRPass
+    MLIRShapeDialect
+    MLIRShapeOpsTransforms
+    MLIRSupport
+    MLIRTensorDialect
+    MLIRTransformUtils
+    MLIRTransforms
+    
+    LLVMBinaryFormat
+    LLVMSupport
+    LLVMTargetParser
+    MLIRAffineDialect
+    MLIRAffineToStandard
+    MLIRAffineUtils
+    MLIRAnalysis
+    MLIRArithDialect
+    MLIRArithToLLVM
+    MLIRArithTransforms
+    MLIRBufferizationDialect
+    MLIRBufferizationTransforms
+
+    MLIRArmNeon2dToIntr
+    MLIRArmNeonDialect
+    MLIRComplexToLLVM
+    MLIRComplexToStandard
+    MLIRControlFlowToLLVM
+    MLIRFuncDialect
+    MLIRFuncToLLVM
+    MLIRFuncTransforms
+    MLIRIR
+    MLIRLLVMCommonConversion
+    MLIRLLVMDialect
+    MLIRLinalgDialect
+    MLIRLinalgToLLVM
+    MLIRLinalgTransforms
+    MLIRLinalgUtils
+    MLIRMathDialect
+    MLIRMathToLLVM
+    MLIRMathTransforms
+    MLIRMemRefDialect
+    MLIRMemRefToLLVM
+    MLIRMemRefTransforms
+    MLIRPDLDialect
+    MLIRPDLInterpDialect
+    MLIRPass
+    MLIRReconcileUnrealizedCasts
+    MLIRSCFDialect
+    MLIRSCFToControlFlow
+    MLIRSCFTransforms
+    MLIRSCFUtils
+    MLIRTensorDialect
+    MLIRTensorTransforms
+    MLIRTensorToLinalg
+    MLIRTosaDialect
+    MLIRTosaToArith
+    MLIRTransformDialect
+    MLIRTransforms
+    MLIRValueBoundsOpInterface
+    MLIRVectorDialect
+    MLIRVectorToLLVM
+    MLIRVectorToSCF
+    MLIRVectorTransforms
+    
+  PUBLIC
+)
