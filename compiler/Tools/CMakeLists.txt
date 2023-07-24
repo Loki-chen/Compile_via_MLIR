@@ -118,10 +118,9 @@ nisl_cc_library(
   DEPS
 
     init_mlir_passes_and_dialects
-    WarpEntryPoint
+    ConvertToMlirLLVM
+    LLVMCPUCodeGen
 
-    # iree::compiler::Codegen::Codegen
-    # iree::compiler::Dialect::HAL::Conversion::Passes
   PUBLIC
 )
 
