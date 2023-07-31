@@ -90,5 +90,4 @@
     "cmake.sourceDirectory": "${workspaceFolder}",
     "cmake.configureOnOpen": false,
     "cmake.parallelJobs": 40
-  
   }

@@ -10,7 +10,7 @@
             "name": "Debug",
             "program": "${workspaceFolder}/build/tools/nisl-compile",
             "args": ["/home/MLIR-Compiler/tests/tosa-mlir/tosa-add.mlir",
-                     "--nisl-codeGen-target=llvm-cpu",
+                     "--nisl-codeGen-target=cuda",
                       "--mlir-print-ir-after-all"
                 ],
             "cwd": "${workspaceFolder}"
