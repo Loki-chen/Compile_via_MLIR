@@ -14,6 +14,7 @@
 #include "Conversion/TOSA/Passes.h"
 #include "Conversion/ConvertToMlirLLVM/Passes.h"
 #include "CodeGen/CPU/Passes.h"
+#include "CodeGen/GPU/Passes.h"
 
 namespace mlir {
 namespace compiler {
@@ -27,6 +28,8 @@ inline void registerAllPasses() {
     ConvertToMlirLLVM::registerPasses();
     // LLVM CPU CodeGen pass
     CPUCodeGen::registerPasses();
+    // LLVM GPU CodeGen Pass
+    GPUCodeGen::registerPasses();
 
 }
 

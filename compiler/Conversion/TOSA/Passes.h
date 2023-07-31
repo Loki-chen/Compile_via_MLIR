@@ -40,6 +40,7 @@ inline void registerPasses(){
   registerTosaToLinalgPass();
   registerTosaToTensorPass();
 
+  createEliminateEmptyTensorsPass();
   // Pipelines.
   registerTOSAConversionPassPipeline();
 }

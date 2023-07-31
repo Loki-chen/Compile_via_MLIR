@@ -1,7 +1,6 @@
 
 #include <memory>
 #include "mlir/Conversion/LLVMCommon/Pattern.h"
-#include "mlir/Conversion/TensorToLinalg/TensorToLinalgPass.h"
 #include "mlir/Dialect/Bufferization/Transforms/Passes.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/Linalg/Passes.h"
@@ -27,7 +26,6 @@
 #include "mlir/Conversion/MemRefToLLVM/MemRefToLLVM.h"
 #include "mlir/Conversion/FuncToLLVM/ConvertFuncToLLVMPass.h"
 
-
 namespace mlir {
 namespace compiler {
 namespace ConvertToMlirLLVM {
@@ -36,24 +34,20 @@ namespace ConvertToMlirLLVM {
     void buildTransformPassPipeline(OpPassManager &passManager){
 
 
-
+        // passManager.addPass(createConvertTensorToLinalgPass());
 
         //bufferization
         passManager.addNestedPass<func::FuncOp>(createLinalgBufferizePass());
-        // passManager.addNestedPass<func::FuncOp>(bufferization::createBufferDeallocationPass());
-        // passManager.addPass(createInlinerPass());
         passManager.addPass(arith::createConstantBufferizePass());
         passManager.addNestedPass<func::FuncOp>(arith::createArithExpandOpsPass());
         passManager.addNestedPass<func::FuncOp>(memref::createExpandOpsPass());
         passManager.addPass(arith::createArithBufferizePass());
         passManager.addPass(func::createFuncBufferizePass());
-        
-        
-        passManager.addPass(createConvertTensorToLinalgPass());
 
-        // passManager.addPass(bufferization::createEmptyTensorToAllocTensorPass());
-        // passManager.addNestedPass<func::FuncOp>(tensor::createTensorBufferizePass());
-
+        // TODO add a pass eliminate the empty tensor, then delete the next two passs.
+        passManager.addPass(bufferization::createEmptyTensorToAllocTensorPass());
+        passManager.addNestedPass<func::FuncOp>(tensor::createTensorBufferizePass());
+        
         // Finalizing bufferization pass.
         passManager.addNestedPass<func::FuncOp>(mlir::bufferization::createFinalizingBufferizePass());
 

@@ -11,27 +11,20 @@
 #include "mlir/Conversion/TosaToLinalg/TosaToLinalg.h"
 #include "mlir/Conversion/TosaToSCF/TosaToSCF.h"
 #include "mlir/Conversion/TosaToTensor/TosaToTensor.h"
+#include "mlir/Dialect/Bufferization/Transforms/Passes.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
 #include "mlir/Dialect/Linalg/Passes.h"
 #include "mlir/Dialect/Tosa/Transforms/Passes.h"
+#include "mlir/IR/BuiltinOps.h"
 #include "mlir/Pass/Pass.h"
 #include "mlir/Pass/PassOptions.h"
 #include "mlir/Pass/PassRegistry.h"
 #include "mlir/Pass/PassManager.h"
 #include "mlir/Transforms/Passes.h"
 #include <iostream>
-
-
-
-
 #include "llvm/MC/TargetRegistry.h"
-
 #include "llvm/Support/CommandLine.h"
-static llvm::cl::opt<bool> Target(
-    "nisl-target",
-    llvm::cl::desc(
-        "Enables microkernel lowering for llvmcpu backend (experimental)"),
-    llvm::cl::init(false));
+
 namespace mlir {
 namespace compiler {
 namespace InputTosa{
@@ -50,8 +43,12 @@ void buildTransformPassPipeline(OpPassManager &passManager) {
     passManager.addNestedPass<func::FuncOp>(tosa::createTosaToSCF());
     passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalgNamed());
     passManager.addNestedPass<func::FuncOp>(tosa::createTosaToLinalg());
-
+    // Origin pass
     // eliminate-empty-tensors ---TODO
+
+
+    passManager.addPass(createEliminateEmptyTensorsPass());
+    passManager.addPass(bufferization::createEmptyTensorToAllocTensorPass());
 
 
     passManager.addNestedPass<func::FuncOp>(tosa::createTosaLayerwiseConstantFoldPass());

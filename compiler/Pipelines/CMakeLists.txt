@@ -19,5 +19,8 @@ nisl_cc_library(
     ConvertToMlirLLVM
     # LLVMCPUCodeGen
     LLVMCPUCodeGen
+    # LLVMGPUCodeGen
+    LLVMGPUCodeGen
+    
   PUBLIC
 )

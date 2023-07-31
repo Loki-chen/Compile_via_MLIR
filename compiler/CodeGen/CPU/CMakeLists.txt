@@ -10,6 +10,11 @@ nisl_cc_library(
       "LLVMCPUCodeGenpass.cpp"
     DEPS
       LLVMSupport
+      LLVMAnalysis
+      LLVMBitReader
+      LLVMBitWriter
       MLIRIR
+      MLIRLLVMDialect
+      CodeGenUtils
 
 )

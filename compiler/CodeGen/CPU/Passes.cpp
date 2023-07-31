@@ -15,9 +15,8 @@ namespace CPUCodeGen {
 
 void buildTransformPassPipeline(OpPassManager &passManager){
     llvm::errs() << "codeGen cpu " << "\n";
-    // passManager.addNestedPass<mlir::ModuleOp>(createLLVMCpuCodeGenPass());
     passManager.addPass(createLLVMCpuCodeGenPass());
-    // passManager.addPass(createLowerHostCodeToLLVMPass());
+
 
 }
 

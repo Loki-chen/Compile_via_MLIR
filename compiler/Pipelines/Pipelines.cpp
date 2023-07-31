@@ -2,6 +2,7 @@
 #include "Conversion/TOSA/Passes.h"
 #include "Conversion/ConvertToMlirLLVM/Passes.h"
 #include "CodeGen/CPU/Passes.h"
+#include "CodeGen/GPU/Passes.h"
 #include "llvm/ADT/StringRef.h"
 #include "llvm/Support/CommandLine.h"
 #include "llvm/Support/raw_ostream.h"
@@ -33,7 +34,7 @@ namespace compiler {
         if (!codeGenTarget.compare("llvm-cpu")){
             CPUCodeGen::buildTransformPassPipeline(passManager);}
         else if(!codeGenTarget.compare("cuda")){
-            return ;
+            GPUCodeGen::buildTransformPassPipeline(passManager);
         }else {
             llvm::errs() << "The target was not achieved! " << "\n";
         }

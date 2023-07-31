@@ -10,7 +10,10 @@ namespace compiler {
 namespace InputTosa {
 
 
-// #include "compiler/Conversion/TOSA/Passes.h.inc"
+
+#define GEN_PASS_CLASSES
+// TODO--fix cmakeFiles.txt
+#include "/home/MLIR-Compiler/build/compiler/Conversion/TOSA/Passes.h.inc"
 
 }  // namespace iree_compiler
 }  // namespace mlir
