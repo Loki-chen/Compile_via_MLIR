@@ -18,9 +18,11 @@ void registerLLVMCPUCodeGenPasspipeline();
 
 
 std::unique_ptr<OperationPass<ModuleOp>> createLLVMCpuCodeGenPass();
-
+void registerCPUTargetBackend();
 
 inline void registerPasses(){
+    // 
+    registerCPUTargetBackend();
     //register pass
     createLLVMCpuCodeGenPass();
     //register Pipeline

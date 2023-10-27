@@ -13,6 +13,7 @@
 #include "mlir/Pass/Pass.h"
 #include "mlir/Pass/PassRegistry.h"
 #include "llvm-c/Core.h"
+#include "llvm-c/Target.h"
 #include "llvm-c/Types.h"
 #include "llvm/ADT/ArrayRef.h"
 #include "llvm/ADT/SmallVector.h"
@@ -27,6 +28,7 @@
 #include "llvm/IR/Module.h"
 #include "llvm/Support/CodeGen.h"
 #include "llvm/Support/Error.h"
+#include "llvm/Support/TargetSelect.h"
 #include "llvm/Target/TargetOptions.h"
 #include "llvm/TargetParser/Triple.h"
 #include <memory>
@@ -37,6 +39,7 @@
 #include "mlir/Target/LLVMIR/Dialect/Builtin/BuiltinToLLVMIRTranslation.h"
 #include "mlir/Target/LLVMIR/Dialect/LLVMIR/LLVMToLLVMIRTranslation.h"
 #include "mlir/Target/LLVMIR/Export.h"
+
 #include "CodeGen/CodeGenTools.h"
 
 
@@ -129,6 +132,17 @@ std::unique_ptr<OperationPass<ModuleOp>> createLLVMCpuCodeGenPass(){
 static PassRegistration<LLVMCpuCodeGenPass> pass([] {
   return std::make_unique<LLVMCpuCodeGenPass>();
 });
+
+
+void registerCPUTargetBackend(){
+
+    // LLVMInitializeAllTargets();
+    // LLVMInitializeAllTargetInfos();
+    // LLVMInitializeAllTargetMCs();
+    // LLVMInitializeAllAsmPrinters();
+}
+
+
 }
 }
 }

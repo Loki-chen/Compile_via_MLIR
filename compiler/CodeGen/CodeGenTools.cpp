@@ -38,6 +38,23 @@ void DumpBitCodeToFile(const llvm::Module &llvmModule, llvm::StringRef path, llv
 }
 
 
+void DumpDataToPath(StringRef path, StringRef baseName, StringRef suffix,
+                    StringRef extension, StringRef data) {
+  auto fileName = (llvm::join_items("_", baseName, suffix) + extension).str();
+  auto fileParts =
+      llvm::join_items(llvm::sys::path::get_separator(), path, fileName);
+  auto filePath = llvm::sys::path::convert_to_slash(fileParts);
+  std::string error;
+  auto file = mlir::openOutputFile(filePath, &error);
+  if (!file) {
+    llvm::errs() << "Unable to dump debug output to " << filePath << "\n";
+    return;
+  }
+  file->os().write(data.data(), data.size());
+  file->keep();
+}
+
+
 }  // namespace CodeGenTools
 }
 }

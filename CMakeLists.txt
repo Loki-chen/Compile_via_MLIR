@@ -36,7 +36,7 @@ option(NISL_ENABLE_CLANG_TIDY "Builds IREE in with clang tidy enabled on IREE's 
 option(NISL_BUILD_COMPILER "Builds the NISL compiler." ON)
 option(NISL_BUILD_BUNDLED_LLVM "Builds the bundled llvm (vs using installed)" ON)
 
-
+ 
 
 # For development, builds LLVM (and in the future) the whole compiler as
 # individual shared libraries similar to if passing -DBUILD_SHARED_LIBS=ON
@@ -138,7 +138,6 @@ include(nisl_cc_binary)
 include(nisl_cc_library)
 include(nisl_import_binary)
 include(nisl_tablegen_library)
-include(nisl_tablegen_doc)
 include(nisl_add_all_subdirs)
 include(nisl_llvm)
 
@@ -146,11 +145,15 @@ include(nisl_llvm)
 
 set(NISL_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set(NISL_ROOT_DIR ${NISL_SOURCE_DIR})
+
 set(NISL_BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${NISL_BINARY_DIR}/tools)
-set(NISL_COMPILER_ROOT_DIR ${NISL_SOURCE_DIR}/compiler)
-include_directories(${NISL_COMPILER_ROOT_DIR})
 
+set(NISL_COMPILER_ROOT_DIR ${NISL_SOURCE_DIR}/compiler)
+set(NISL_COMPILER_BINARY_DIR ${NISL_BINARY_DIR}/compiler)
+
+include_directories(${NISL_COMPILER_ROOT_DIR})
+include_directories(${NISL_COMPILER_BINARY_DIR})
 
 
 #-------------------------------------------------------------------------------
@@ -201,3 +204,7 @@ add_subdirectory(build-tools/third_party/llvm-project EXCLUDE_FROM_ALL)
 add_subdirectory(compiler)
 add_subdirectory(tests)
 add_subdirectory(tools)
+
+
+
+# cmake -G Ninja  -S /home/MLIR-Compiler -B /home/MLIR-Compiler/build    -DCMAKE_BUILD_TYPE:STRING=Debug  -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DNISL_ENABLE_ASSERTIONS=ON -DLLVM_ENABLE_ASSERTIONS=ON -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++  

@@ -13,8 +13,7 @@ namespace InputTosa {
 
 #define GEN_PASS_CLASSES
 // TODO--fix cmakeFiles.txt
-#include "/home/MLIR-Compiler/build/compiler/Conversion/TOSA/Passes.h.inc"
-
+#include "Conversion/TOSA/Passes.h.inc"
 }  // namespace iree_compiler
 }  // namespace mlir
 }

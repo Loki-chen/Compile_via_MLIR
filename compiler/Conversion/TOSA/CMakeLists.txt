@@ -27,16 +27,6 @@ nisl_cc_library(
   PUBLIC
 )
 
-nisl_cc_library(
-  NAME
-    Codegen
-  SRCS
-    "Passes.cpp"
-  DEPS
-    PassHeaders
-    PassesIncGen
-  PUBLIC
-)
 
 
 
@@ -49,7 +39,8 @@ nisl_cc_library(
         "Passes.cpp"
         "eliminateEmptyTensors.cpp"
     DEPS
-        Codegen
+        PassHeaders
+        PassesIncGen
         MLIRArithDialect
         MLIRFuncDialect
         MLIRIR
@@ -71,6 +62,6 @@ nisl_cc_library(
 
         MLIRBufferizationDialect
         MLIRBufferizationTransforms
-
+    PUBLIC
 )
 

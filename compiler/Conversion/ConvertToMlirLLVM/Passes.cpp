@@ -3,6 +3,7 @@
 #include "mlir/Conversion/LLVMCommon/Pattern.h"
 #include "mlir/Dialect/Bufferization/Transforms/Passes.h"
 #include "mlir/Dialect/Func/IR/FuncOps.h"
+#include "mlir/Dialect/LLVMIR/Transforms/RequestCWrappers.h"
 #include "mlir/Dialect/Linalg/Passes.h"
 #include "mlir/Dialect/Tensor/Transforms/Passes.h"
 #include "mlir/IR/BuiltinOps.h"
@@ -23,8 +24,10 @@
 #include "mlir/Conversion/AffineToStandard/AffineToStandard.h"
 
 #include "mlir/Conversion/ArithToLLVM/ArithToLLVM.h"
+#include "mlir/Transforms/Passes.h"
 #include "mlir/Conversion/MemRefToLLVM/MemRefToLLVM.h"
 #include "mlir/Conversion/FuncToLLVM/ConvertFuncToLLVMPass.h"
+#include "llvm/IR/Module.h"
 
 namespace mlir {
 namespace compiler {
@@ -68,8 +71,10 @@ namespace ConvertToMlirLLVM {
         // ( Linalg, CF, tensor) -> LLVM
 
         passManager.addNestedPass<func::FuncOp>(mlir::createArithToLLVMConversionPass());
+        passManager.addNestedPass<func::FuncOp>(LLVM::createRequestCWrappersPass());
         passManager.addPass(mlir::createConvertFuncToLLVMPass());
         passManager.addPass(mlir::createFinalizeMemRefToLLVMConversionPass());
+
         passManager.addPass(createReconcileUnrealizedCastsPass());
         passManager.addPass(createCanonicalizerPass());
         passManager.addPass(createCSEPass());

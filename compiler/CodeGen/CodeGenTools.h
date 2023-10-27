@@ -11,8 +11,12 @@ namespace mlir {
 namespace compiler {
 namespace CodeGenTools {
 
+
 std::string getfuncName(mlir::LLVM::LLVMFuncOp llvmFunc);
+
 void DumpBitCodeToFile(const llvm::Module &llvmModule, llvm::StringRef path,
          llvm::StringRef suffix, llvm::StringRef baseName, llvm::StringRef extension);
 
+void DumpDataToPath(StringRef path, StringRef baseName, StringRef suffix,
+                    StringRef extension, StringRef data);
 }}}
